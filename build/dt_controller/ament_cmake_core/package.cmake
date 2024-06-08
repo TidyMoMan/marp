@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "dt_controller")
 set(dt_controller_VERSION "0.0.0")
-set(dt_controller_MAINTAINER "moses <moses@todo.todo>")
+set(dt_controller_MAINTAINER "moses <mosesdilts@gmail.com>")
 set(dt_controller_BUILD_DEPENDS )
 set(dt_controller_BUILDTOOL_DEPENDS "ament_cmake")
 set(dt_controller_BUILD_EXPORT_DEPENDS )

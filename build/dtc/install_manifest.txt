@@ -1,0 +1,16 @@
+/home/moses/marp/install/dtc/lib/dtc/dtc
+/home/moses/marp/install/dtc/share/ament_index/resource_index/package_run_dependencies/dtc
+/home/moses/marp/install/dtc/share/ament_index/resource_index/parent_prefix_path/dtc
+/home/moses/marp/install/dtc/share/dtc/environment/ament_prefix_path.sh
+/home/moses/marp/install/dtc/share/dtc/environment/ament_prefix_path.dsv
+/home/moses/marp/install/dtc/share/dtc/environment/path.sh
+/home/moses/marp/install/dtc/share/dtc/environment/path.dsv
+/home/moses/marp/install/dtc/share/dtc/local_setup.bash
+/home/moses/marp/install/dtc/share/dtc/local_setup.sh
+/home/moses/marp/install/dtc/share/dtc/local_setup.zsh
+/home/moses/marp/install/dtc/share/dtc/local_setup.dsv
+/home/moses/marp/install/dtc/share/dtc/package.dsv
+/home/moses/marp/install/dtc/share/ament_index/resource_index/packages/dtc
+/home/moses/marp/install/dtc/share/dtc/cmake/dtcConfig.cmake
+/home/moses/marp/install/dtc/share/dtc/cmake/dtcConfig-version.cmake
+/home/moses/marp/install/dtc/share/dtc/package.xml

@@ -1,0 +1,5 @@
+[0.062s] Invoking command in '/home/moses/marp/build/dt_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dt_controller -- -j4 -l4
+[0.130s] [0mCMake Error: The source directory "/home/moses/marp/src/dt_controller" does not exist.
+[0.131s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.134s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.142s] Invoked command in '/home/moses/marp/build/dt_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dt_controller -- -j4 -l4

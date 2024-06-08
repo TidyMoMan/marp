@@ -1,0 +1,4 @@
+source;share/dtc/local_setup.bash
+source;share/dtc/local_setup.dsv
+source;share/dtc/local_setup.sh
+source;share/dtc/local_setup.zsh

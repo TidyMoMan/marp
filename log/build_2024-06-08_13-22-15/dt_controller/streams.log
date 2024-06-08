@@ -1,0 +1,24 @@
+[0.052s] Invoking command in '/home/moses/marp/build/dt_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dt_controller -- -j4 -l4
+[0.237s] [ 50%] [32mBuilding CXX object CMakeFiles/dt_controller.dir/src/dt_controller.cpp.o[0m
+[0.633s] [100%] [32m[1mLinking CXX executable dt_controller[0m
+[0.883s] [100%] Built target dt_controller
+[0.921s] Invoked command in '/home/moses/marp/build/dt_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dt_controller -- -j4 -l4
+[1.089s] Invoking command in '/home/moses/marp/build/dt_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dt_controller
+[1.115s] -- Install configuration: ""
+[1.116s] -- Installing: /home/moses/marp/install/dt_controller/lib/dt_controller/dt_controller
+[1.118s] -- Up-to-date: /home/moses/marp/install/dt_controller/share/ament_index/resource_index/package_run_dependencies/dt_controller
+[1.119s] -- Up-to-date: /home/moses/marp/install/dt_controller/share/ament_index/resource_index/parent_prefix_path/dt_controller
+[1.119s] -- Up-to-date: /home/moses/marp/install/dt_controller/share/dt_controller/environment/ament_prefix_path.sh
+[1.120s] -- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/environment/ament_prefix_path.dsv
+[1.121s] -- Up-to-date: /home/moses/marp/install/dt_controller/share/dt_controller/environment/path.sh
+[1.121s] -- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/environment/path.dsv
+[1.122s] -- Up-to-date: /home/moses/marp/install/dt_controller/share/dt_controller/local_setup.bash
+[1.123s] -- Up-to-date: /home/moses/marp/install/dt_controller/share/dt_controller/local_setup.sh
+[1.123s] -- Up-to-date: /home/moses/marp/install/dt_controller/share/dt_controller/local_setup.zsh
+[1.124s] -- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/local_setup.dsv
+[1.124s] -- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/package.dsv
+[1.126s] -- Up-to-date: /home/moses/marp/install/dt_controller/share/ament_index/resource_index/packages/dt_controller
+[1.127s] -- Up-to-date: /home/moses/marp/install/dt_controller/share/dt_controller/cmake/dt_controllerConfig.cmake
+[1.127s] -- Up-to-date: /home/moses/marp/install/dt_controller/share/dt_controller/cmake/dt_controllerConfig-version.cmake
+[1.127s] -- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/package.xml
+[1.134s] Invoked command in '/home/moses/marp/build/dt_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dt_controller

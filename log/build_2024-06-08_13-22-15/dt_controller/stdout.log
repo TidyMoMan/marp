@@ -1,0 +1,20 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/dt_controller.dir/src/dt_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable dt_controller[0m
+[100%] Built target dt_controller
+-- Install configuration: ""
+-- Installing: /home/moses/marp/install/dt_controller/lib/dt_controller/dt_controller
+-- Up-to-date: /home/moses/marp/install/dt_controller/share/ament_index/resource_index/package_run_dependencies/dt_controller
+-- Up-to-date: /home/moses/marp/install/dt_controller/share/ament_index/resource_index/parent_prefix_path/dt_controller
+-- Up-to-date: /home/moses/marp/install/dt_controller/share/dt_controller/environment/ament_prefix_path.sh
+-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/moses/marp/install/dt_controller/share/dt_controller/environment/path.sh
+-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/environment/path.dsv
+-- Up-to-date: /home/moses/marp/install/dt_controller/share/dt_controller/local_setup.bash
+-- Up-to-date: /home/moses/marp/install/dt_controller/share/dt_controller/local_setup.sh
+-- Up-to-date: /home/moses/marp/install/dt_controller/share/dt_controller/local_setup.zsh
+-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/local_setup.dsv
+-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/package.dsv
+-- Up-to-date: /home/moses/marp/install/dt_controller/share/ament_index/resource_index/packages/dt_controller
+-- Up-to-date: /home/moses/marp/install/dt_controller/share/dt_controller/cmake/dt_controllerConfig.cmake
+-- Up-to-date: /home/moses/marp/install/dt_controller/share/dt_controller/cmake/dt_controllerConfig-version.cmake
+-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/package.xml

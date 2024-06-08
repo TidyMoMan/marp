@@ -1,0 +1,6 @@
+Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/moses/marp/src/dtc -DCMAKE_INSTALL_PREFIX=/home/moses/marp/install/dtc
+Invoked command in '/home/moses/marp/build/dtc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/moses/marp/src/dtc -DCMAKE_INSTALL_PREFIX=/home/moses/marp/install/dtc
+Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+Invoked command in '/home/moses/marp/build/dtc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dtc
+Invoked command in '/home/moses/marp/build/dtc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dtc

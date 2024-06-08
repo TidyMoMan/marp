@@ -1,0 +1,10 @@
+/home/moses/marp/build/dtc/CMakeFiles/uninstall.dir
+/home/moses/marp/build/dtc/CMakeFiles/dtc_uninstall.dir
+/home/moses/marp/build/dtc/CMakeFiles/dtc.dir
+/home/moses/marp/build/dtc/CMakeFiles/test.dir
+/home/moses/marp/build/dtc/CMakeFiles/edit_cache.dir
+/home/moses/marp/build/dtc/CMakeFiles/rebuild_cache.dir
+/home/moses/marp/build/dtc/CMakeFiles/list_install_components.dir
+/home/moses/marp/build/dtc/CMakeFiles/install.dir
+/home/moses/marp/build/dtc/CMakeFiles/install/local.dir
+/home/moses/marp/build/dtc/CMakeFiles/install/strip.dir

@@ -1,0 +1,13 @@
+source ros setup for workspace (needed to run ros2 commands): source /opt/ros/humble/setup.bash 
+source setup file (needed for running nodes): source install/local_setup.bash
+
+
+
+colcon: 
+    build all: colcon build
+    build select packages: colcon build --packages-select packages
+
+ros2:
+    run node: ros2 run PACKAGE_NAME NODE_NAME
+    create new package: ros2 pkg create --build-type ament_cmake --license Apache-2.0 <package_name>
+    
