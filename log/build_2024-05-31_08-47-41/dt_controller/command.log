@@ -1,0 +1,6 @@
+Invoking command in '/home/moses/marp/build/dt_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/moses/marp/src/dt_controller -DCMAKE_INSTALL_PREFIX=/home/moses/marp/install/dt_controller
+Invoked command in '/home/moses/marp/build/dt_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/moses/marp/src/dt_controller -DCMAKE_INSTALL_PREFIX=/home/moses/marp/install/dt_controller
+Invoking command in '/home/moses/marp/build/dt_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dt_controller -- -j4 -l4
+Invoked command in '/home/moses/marp/build/dt_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dt_controller -- -j4 -l4
+Invoking command in '/home/moses/marp/build/dt_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dt_controller
+Invoked command in '/home/moses/marp/build/dt_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dt_controller

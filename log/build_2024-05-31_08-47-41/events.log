@@ -1,0 +1,471 @@
+[0.000000] (-) TimerEvent: {}
+[0.001134] (dt_controller) JobQueued: {'identifier': 'dt_controller', 'dependencies': OrderedDict()}
+[0.002174] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.002750] (dt_controller) JobStarted: {'identifier': 'dt_controller'}
+[0.033037] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.053631] (dt_controller) JobProgress: {'identifier': 'dt_controller', 'progress': 'cmake'}
+[0.054649] (dt_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/moses/marp/src/dt_controller', '-DCMAKE_INSTALL_PREFIX=/home/moses/marp/install/dt_controller'], 'cwd': '/home/moses/marp/build/dt_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'moses'), ('SSH_CLIENT', '192.168.4.101 44363 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/moses'), ('OLDPWD', '/home/moses/marp/src'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-562b5d4c-08a4-4766-b796-bac3a3ea46f3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'moses'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-69176f7489.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/moses/marp/build/dt_controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.4.101 44363 192.168.4.225 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.074157] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.079142] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.082193] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/moses/marp/build/turtlesim', '--', '-j4', '-l4'], 'cwd': '/home/moses/marp/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'moses'), ('SSH_CLIENT', '192.168.4.101 44363 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/moses'), ('OLDPWD', '/home/moses/marp/src'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-562b5d4c-08a4-4766-b796-bac3a3ea46f3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'moses'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-69176f7489.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/moses/marp/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.4.101 44363 192.168.4.225 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099134] (-) TimerEvent: {}
+[0.200189] (-) TimerEvent: {}
+[0.301813] (-) TimerEvent: {}
+[0.320958] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c\x1b[0m\n'}
+[0.365691] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.400312] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.401986] (-) TimerEvent: {}
+[0.406539] (dt_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.447491] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.474937] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.480645] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.502253] (-) TimerEvent: {}
+[0.518240] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.588164] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.602464] (-) TimerEvent: {}
+[0.615807] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.642599] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.699961] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.702688] (-) TimerEvent: {}
+[0.722648] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.741010] (dt_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.765799] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c\x1b[0m\n'}
+[0.790947] (dt_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.802920] (-) TimerEvent: {}
+[0.808705] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.842215] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.848398] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.903132] (-) TimerEvent: {}
+[0.918345] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_square\x1b[0m\n'}
+[0.939374] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[0.962386] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_teleop_key\x1b[0m\n'}
+[1.003428] (-) TimerEvent: {}
+[1.105193] (-) TimerEvent: {}
+[1.126683] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target turtle_teleop_key\n'}
+[1.153567] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target draw_square\n'}
+[1.205434] (-) TimerEvent: {}
+[1.217048] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimic\x1b[0m\n'}
+[1.257844] (turtlesim) StdoutLine: {'line': b'[ 81%] Built target turtlesim_node\n'}
+[1.305724] (-) TimerEvent: {}
+[1.342902] (turtlesim) StdoutLine: {'line': b'[ 81%] Built target turtlesim\n'}
+[1.379033] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target mimic\n'}
+[1.399444] (dt_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.406035] (-) TimerEvent: {}
+[1.433745] (dt_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.436682] (dt_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.439393] (dt_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.455702] (dt_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.463028] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim__py\n'}
+[1.506230] (-) TimerEvent: {}
+[1.512393] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py\x1b[0m\n'}
+[1.606462] (-) TimerEvent: {}
+[1.616261] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_generator_py\n'}
+[1.660220] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.686160] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.706788] (-) TimerEvent: {}
+[1.713158] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.779673] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.795526] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[1.806967] (-) TimerEvent: {}
+[1.821863] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[1.907207] (-) TimerEvent: {}
+[1.938781] (dt_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.968915] (dt_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.971388] (dt_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.974234] (dt_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.994979] (dt_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.007562] (-) TimerEvent: {}
+[2.108628] (-) TimerEvent: {}
+[2.209634] (-) TimerEvent: {}
+[2.223141] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[2.226664] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[2.228070] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[2.229454] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[2.244094] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[2.247248] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[2.309952] (-) TimerEvent: {}
+[2.394550] (turtlesim) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[2.410113] (-) TimerEvent: {}
+[2.451772] (turtlesim) CommandEnded: {'returncode': 0}
+[2.510300] (-) TimerEvent: {}
+[2.611844] (-) TimerEvent: {}
+[2.712947] (-) TimerEvent: {}
+[2.814614] (-) TimerEvent: {}
+[2.833695] (dt_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.914916] (-) TimerEvent: {}
+[3.017498] (-) TimerEvent: {}
+[3.118313] (-) TimerEvent: {}
+[3.220366] (-) TimerEvent: {}
+[3.321122] (-) TimerEvent: {}
+[3.386039] (dt_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.421314] (-) TimerEvent: {}
+[3.522812] (-) TimerEvent: {}
+[3.624621] (-) TimerEvent: {}
+[3.693337] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[3.729263] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/moses/marp/build/turtlesim'], 'cwd': '/home/moses/marp/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'moses'), ('SSH_CLIENT', '192.168.4.101 44363 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/moses'), ('OLDPWD', '/home/moses/marp/src'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-562b5d4c-08a4-4766-b796-bac3a3ea46f3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'moses'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-69176f7489.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/moses/marp/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.4.101 44363 192.168.4.225 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.733347] (-) TimerEvent: {}
+[3.759076] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.760457] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[3.761130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim\n'}
+[3.761487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[3.761874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[3.762323] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[3.765973] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[3.768241] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[3.769171] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[3.769943] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[3.770721] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[3.771449] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[3.772985] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[3.773721] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[3.774214] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[3.774549] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[3.775190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[3.775681] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[3.776033] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[3.776781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[3.777359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[3.778178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[3.778825] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[3.779250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[3.780258] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[3.780770] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[3.781386] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[3.781795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[3.782152] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[3.782852] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[3.783320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[3.783793] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[3.784698] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[3.785844] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[3.786604] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[3.787953] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[3.788874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[3.789843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[3.790532] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[3.791223] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[3.792097] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[3.792916] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[3.793678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[3.794370] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[3.795067] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[3.795894] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[3.796754] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[3.797167] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[3.797975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[3.798856] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.799706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[3.801734] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[3.803820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[3.804797] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim\n'}
+[3.808187] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[3.809325] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[3.810195] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[3.811042] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[3.812131] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[3.812972] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[3.813394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[3.814159] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[3.814587] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[3.814960] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[3.815438] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[3.816286] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.816726] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[3.817316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[3.818111] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[3.818978] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[3.820217] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim\n'}
+[3.821243] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[3.822075] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[3.824192] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[3.825095] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[3.825451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[3.825786] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[3.826505] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[3.826867] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[3.827209] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[3.827631] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[3.828106] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[3.828681] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[3.830015] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[3.830874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[3.831485] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[3.832155] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[3.832566] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[3.832941] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[3.833639] (-) TimerEvent: {}
+[3.835090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[3.836301] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[3.837280] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[3.838027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[3.838791] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[3.842594] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[3.843559] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[3.844759] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[3.845379] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[3.845929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[3.846469] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[3.846880] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[3.847233] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[3.848974] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[3.849418] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[3.849910] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[3.850397] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[3.850802] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[3.851468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[3.852363] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[3.852901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim\n'}
+[3.853368] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[3.853796] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[3.854265] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.855810] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.856519] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.858273] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[3.858799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.859629] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.860194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[3.860656] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[3.861187] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.861693] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[3.862096] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[3.862461] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.862838] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[3.863305] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.863744] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.864136] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[3.864616] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.865021] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim\n'}
+[3.865474] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[3.865820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[3.866103] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[3.866382] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[3.866696] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[3.867018] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[3.867449] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[3.867793] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[3.868153] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[3.868589] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[3.868959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[3.869304] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[3.869656] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[3.869996] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[3.870359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[3.870809] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[3.871326] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[3.871813] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[3.872270] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[3.872828] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[3.873425] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[3.873937] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[3.874407] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.874789] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[3.875245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[3.875809] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim\n'}
+[3.876238] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[3.876728] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[3.877188] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.877634] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.878101] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[3.878554] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.878960] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[3.879525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[3.880098] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[3.880555] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.881035] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.881493] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[3.881969] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[3.882433] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[3.882929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[3.883388] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.883937] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[3.884581] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[3.885166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[3.885628] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.886062] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[3.886536] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.887064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[3.887760] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[3.888258] (dt_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.888740] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[3.889289] (dt_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/moses/marp/src/dt_controller/include>\n'}
+[3.889777] (dt_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.890218] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[3.890712] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[3.891148] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[3.891941] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[3.892416] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[3.892894] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[3.893353] (dt_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.893852] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[3.894306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[3.894782] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[3.895188] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[3.895662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.896058] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.896402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.896771] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[3.897124] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[3.900370] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[3.903631] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[3.905270] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[3.906395] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[3.907445] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[3.908335] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[3.909169] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[3.909705] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[3.910196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[3.910786] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[3.911350] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.911978] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[3.912614] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[3.916712] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[3.917434] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[3.918512] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[3.943665] (-) TimerEvent: {}
+[3.946081] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[3.946767] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[3.947503] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[3.948247] (dt_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.948898] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[3.949502] (dt_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.951212] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[3.952602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.953169] (dt_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.953723] (dt_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.955167] (dt_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[3.955950] (dt_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/moses/marp/build/dt_controller\n'}
+[3.956858] (dt_controller) CommandEnded: {'returncode': 0}
+[3.958375] (dt_controller) JobProgress: {'identifier': 'dt_controller', 'progress': 'build'}
+[3.958536] (dt_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/moses/marp/build/dt_controller', '--', '-j4', '-l4'], 'cwd': '/home/moses/marp/build/dt_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'moses'), ('SSH_CLIENT', '192.168.4.101 44363 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/moses'), ('OLDPWD', '/home/moses/marp/src'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-562b5d4c-08a4-4766-b796-bac3a3ea46f3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'moses'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-69176f7489.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/moses/marp/build/dt_controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.4.101 44363 192.168.4.225 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.013405] (turtlesim) StdoutLine: {'line': b"Listing '/home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[4.015147] (turtlesim) StdoutLine: {'line': b"Listing '/home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[4.016521] (turtlesim) StdoutLine: {'line': b"Listing '/home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[4.017658] (turtlesim) StdoutLine: {'line': b"Listing '/home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[4.040508] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.043233] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.043926] (-) TimerEvent: {}
+[4.046309] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.048798] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[4.050976] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[4.053913] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[4.055329] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[4.056238] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[4.057394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[4.059394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[4.060640] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[4.061914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[4.062945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[4.063343] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[4.064160] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[4.064691] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[4.065130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[4.065557] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[4.065921] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[4.066414] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[4.067122] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[4.067535] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[4.067901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[4.068198] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[4.068562] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[4.069275] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[4.069723] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[4.070117] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[4.070573] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[4.070971] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[4.071754] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[4.072107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[4.072517] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/lib/turtlesim/draw_square\n'}
+[4.073214] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/lib/turtlesim/mimic\n'}
+[4.074076] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images\n'}
+[4.075387] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[4.076268] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[4.077154] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[4.078278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[4.079369] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[4.080418] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[4.081671] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[4.082204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[4.082721] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[4.083812] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/launch\n'}
+[4.085065] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[4.085728] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[4.086826] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[4.087540] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[4.088521] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[4.089610] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[4.090624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[4.091858] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[4.092602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[4.093585] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[4.094533] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[4.095478] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/turtlesim/share/turtlesim/package.dsv\n'}
+[4.096313] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[4.097196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[4.098311] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.099509] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.100778] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.101946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[4.103493] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.104156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.104782] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.105316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.105805] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[4.106231] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.106746] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.107178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.107921] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[4.108786] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.109407] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[4.110250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.111345] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[4.115305] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.117493] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.118052] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.119554] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.120270] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.121111] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.121627] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[4.122466] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[4.123001] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/package.xml\n'}
+[4.124067] (turtlesim) CommandEnded: {'returncode': 0}
+[4.141705] (dt_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dt_controller.dir/src/dt_controller.cpp.o\x1b[0m\n'}
+[4.144121] (-) TimerEvent: {}
+[4.245124] (-) TimerEvent: {}
+[4.277904] (dt_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dt_controller\x1b[0m\n'}
+[4.345271] (-) TimerEvent: {}
+[4.446054] (-) TimerEvent: {}
+[4.476781] (dt_controller) StdoutLine: {'line': b'[100%] Built target dt_controller\n'}
+[4.514613] (dt_controller) CommandEnded: {'returncode': 0}
+[4.546234] (-) TimerEvent: {}
+[4.627008] (dt_controller) JobProgress: {'identifier': 'dt_controller', 'progress': 'install'}
+[4.633573] (dt_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/moses/marp/build/dt_controller'], 'cwd': '/home/moses/marp/build/dt_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'moses'), ('SSH_CLIENT', '192.168.4.101 44363 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/moses'), ('OLDPWD', '/home/moses/marp/src'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-562b5d4c-08a4-4766-b796-bac3a3ea46f3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'moses'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/moses/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-69176f7489.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/moses/marp/build/dt_controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.4.101 44363 192.168.4.225 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.646449] (-) TimerEvent: {}
+[4.661478] (dt_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.663053] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/lib/dt_controller/dt_controller\n'}
+[4.664722] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/ament_index/resource_index/package_run_dependencies/dt_controller\n'}
+[4.666211] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/ament_index/resource_index/parent_prefix_path/dt_controller\n'}
+[4.668149] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/environment/ament_prefix_path.sh\n'}
+[4.669590] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/environment/ament_prefix_path.dsv\n'}
+[4.670365] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/environment/path.sh\n'}
+[4.671683] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/environment/path.dsv\n'}
+[4.676820] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/local_setup.bash\n'}
+[4.677451] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/local_setup.sh\n'}
+[4.678219] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/local_setup.zsh\n'}
+[4.678788] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/local_setup.dsv\n'}
+[4.679606] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/package.dsv\n'}
+[4.683988] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/ament_index/resource_index/packages/dt_controller\n'}
+[4.684890] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/cmake/dt_controllerConfig.cmake\n'}
+[4.686155] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/cmake/dt_controllerConfig-version.cmake\n'}
+[4.686638] (dt_controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dt_controller/share/dt_controller/package.xml\n'}
+[4.692019] (dt_controller) CommandEnded: {'returncode': 0}
+[4.746626] (-) TimerEvent: {}
+[4.847422] (-) TimerEvent: {}
+[4.870487] (dt_controller) JobEnded: {'identifier': 'dt_controller', 'rc': 0}
+[4.947625] (-) TimerEvent: {}
+[5.048428] (-) TimerEvent: {}
+[5.149201] (-) TimerEvent: {}
+[5.266284] (-) TimerEvent: {}
+[5.367087] (-) TimerEvent: {}
+[5.468001] (-) TimerEvent: {}
+[5.529425] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[5.533462] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+/home/moses/marp/build/dt_controller/CMakeFiles/uninstall.dir
+/home/moses/marp/build/dt_controller/CMakeFiles/dt_controller_uninstall.dir
+/home/moses/marp/build/dt_controller/CMakeFiles/dt_controller.dir
+/home/moses/marp/build/dt_controller/CMakeFiles/test.dir
+/home/moses/marp/build/dt_controller/CMakeFiles/edit_cache.dir
+/home/moses/marp/build/dt_controller/CMakeFiles/rebuild_cache.dir
+/home/moses/marp/build/dt_controller/CMakeFiles/list_install_components.dir
+/home/moses/marp/build/dt_controller/CMakeFiles/install.dir
+/home/moses/marp/build/dt_controller/CMakeFiles/install/local.dir
+/home/moses/marp/build/dt_controller/CMakeFiles/install/strip.dir
