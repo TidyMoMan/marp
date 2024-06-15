@@ -1,0 +1,9 @@
+[0.057s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[0.137s] [31mCMake Error at CMakeLists.txt:12:
+[0.138s]   Parse error.  Expected a command name, got unquoted argument with text ";".
+[0.138s] 
+[0.139s] [0m
+[0.139s] -- Configuring incomplete, errors occurred!
+[0.140s] See also "/home/moses/marp/build/dtc/CMakeFiles/CMakeOutput.log".
+[0.144s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.151s] Invoked command in '/home/moses/marp/build/dtc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4

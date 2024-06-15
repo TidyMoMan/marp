@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target dtc[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o[0m
+[100%] [32m[1mLinking CXX executable dtc[0m
+[100%] Built target dtc
+-- Install configuration: ""
+-- Installing: /home/moses/marp/install/dtc/lib/dtc/dtc
+-- Set runtime path of "/home/moses/marp/install/dtc/lib/dtc/dtc" to ""
+-- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/package_run_dependencies/dtc
+-- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/parent_prefix_path/dtc
+-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/ament_prefix_path.sh
+-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/path.sh
+-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/path.dsv
+-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.bash
+-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.sh
+-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.zsh
+-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.dsv
+-- Installing: /home/moses/marp/install/dtc/share/dtc/package.dsv
+-- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/packages/dtc
+-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/cmake/dtcConfig.cmake
+-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/cmake/dtcConfig-version.cmake
+-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/package.xml

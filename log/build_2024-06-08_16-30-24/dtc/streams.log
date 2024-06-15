@@ -1,0 +1,11 @@
+[0.055s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[0.203s] [35m[1mConsolidate compiler generated dependencies of target dtc[0m
+[0.251s] [ 50%] [32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o[0m
+[0.474s] [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.474s]     6 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.475s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.475s] compilation terminated.
+[0.480s] gmake[2]: *** [CMakeFiles/dtc.dir/build.make:76: CMakeFiles/dtc.dir/src/dtc.cpp.o] Error 1
+[0.480s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dtc.dir/all] Error 2
+[0.482s] gmake: *** [Makefile:146: all] Error 2
+[0.488s] Invoked command in '/home/moses/marp/build/dtc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4

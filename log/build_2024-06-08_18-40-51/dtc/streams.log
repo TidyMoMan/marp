@@ -1,0 +1,26 @@
+[0.054s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target dtc[0m
+[0.341s] [ 50%] [32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o[0m
+[18.444s] [100%] [32m[1mLinking CXX executable dtc[0m
+[19.383s] [100%] Built target dtc
+[19.426s] Invoked command in '/home/moses/marp/build/dtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[19.589s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dtc
+[19.615s] -- Install configuration: ""
+[19.618s] -- Installing: /home/moses/marp/install/dtc/lib/dtc/dtc
+[19.628s] -- Set runtime path of "/home/moses/marp/install/dtc/lib/dtc/dtc" to ""
+[19.635s] -- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/package_run_dependencies/dtc
+[19.636s] -- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/parent_prefix_path/dtc
+[19.642s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/ament_prefix_path.sh
+[19.659s] -- Installing: /home/moses/marp/install/dtc/share/dtc/environment/ament_prefix_path.dsv
+[19.660s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/path.sh
+[19.661s] -- Installing: /home/moses/marp/install/dtc/share/dtc/environment/path.dsv
+[19.662s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.bash
+[19.662s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.sh
+[19.663s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.zsh
+[19.664s] -- Installing: /home/moses/marp/install/dtc/share/dtc/local_setup.dsv
+[19.665s] -- Installing: /home/moses/marp/install/dtc/share/dtc/package.dsv
+[19.665s] -- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/packages/dtc
+[19.667s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/cmake/dtcConfig.cmake
+[19.667s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/cmake/dtcConfig-version.cmake
+[19.668s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/package.xml
+[19.669s] Invoked command in '/home/moses/marp/build/dtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dtc

@@ -1,0 +1,15 @@
+[0.055s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[0.224s] [35m[1mConsolidate compiler generated dependencies of target dtc[0m
+[0.326s] [ 50%] [32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o[0m
+[18.206s] [100%] [32m[1mLinking CXX executable dtc[0m
+[19.064s] /usr/bin/ld: CMakeFiles/dtc.dir/src/dtc.cpp.o: in function `main':
+[19.065s] dtc.cpp:(.text+0x50): undefined reference to `serialib::openDevice(char const*, unsigned int, SerialDataBits, SerialParity, SerialStopBits)'
+[19.066s] /usr/bin/ld: CMakeFiles/dtc.dir/src/dtc.cpp.o: in function `__static_initialization_and_destruction_0(int, int)':
+[19.067s] dtc.cpp:(.text+0x24c): undefined reference to `serialib::serialib()'
+[19.067s] /usr/bin/ld: dtc.cpp:(.text+0x260): undefined reference to `serialib::~serialib()'
+[19.068s] /usr/bin/ld: dtc.cpp:(.text+0x264): undefined reference to `serialib::~serialib()'
+[19.147s] collect2: error: ld returned 1 exit status
+[19.153s] gmake[2]: *** [CMakeFiles/dtc.dir/build.make:159: dtc] Error 1
+[19.156s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dtc.dir/all] Error 2
+[19.156s] gmake: *** [Makefile:146: all] Error 2
+[19.162s] Invoked command in '/home/moses/marp/build/dtc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4

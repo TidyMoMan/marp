@@ -1,0 +1,20 @@
+[0.056s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[0.229s] [35m[1mConsolidate compiler generated dependencies of target dtc[0m
+[0.326s] [ 50%] [32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o[0m
+[11.198s] [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[11.198s] [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:47:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KerrorOpening[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[11.199s]    47 |   char [01;35m[KerrorOpening[m[K = serial.openDevice(SERIAL_PORT, 19200);
+[11.199s]       |        [01;35m[K^~~~~~~~~~~~[m[K
+[18.854s] [100%] [32m[1mLinking CXX executable dtc[0m
+[19.674s] /usr/bin/ld: CMakeFiles/dtc.dir/src/dtc.cpp.o: in function `main':
+[19.675s] dtc.cpp:(.text+0x34): undefined reference to `serialib::serialib()'
+[19.678s] /usr/bin/ld: dtc.cpp:(.text+0x58): undefined reference to `serialib::openDevice(char const*, unsigned int, SerialDataBits, SerialParity, SerialStopBits)'
+[19.678s] /usr/bin/ld: dtc.cpp:(.text+0x74): undefined reference to `serialib::writeString(char const*)'
+[19.679s] /usr/bin/ld: dtc.cpp:(.text+0x90): undefined reference to `serialib::writeString(char const*)'
+[19.679s] /usr/bin/ld: dtc.cpp:(.text+0x170): undefined reference to `serialib::~serialib()'
+[19.679s] /usr/bin/ld: dtc.cpp:(.text+0x1f0): undefined reference to `serialib::~serialib()'
+[19.757s] collect2: error: ld returned 1 exit status
+[19.763s] gmake[2]: *** [CMakeFiles/dtc.dir/build.make:159: dtc] Error 1
+[19.764s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dtc.dir/all] Error 2
+[19.765s] gmake: *** [Makefile:146: all] Error 2
+[19.772s] Invoked command in '/home/moses/marp/build/dtc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4

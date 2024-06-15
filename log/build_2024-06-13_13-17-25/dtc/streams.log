@@ -1,0 +1,14 @@
+[0.071s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[0.332s] [35m[1mConsolidate compiler generated dependencies of target dtc[0m
+[0.469s] [ 50%] [32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o[0m
+[11.408s] [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[11.409s] [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:27:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial[m[K’ was not declared in this scope
+[11.410s]    27 |   char errorOpening = [01;31m[Kserial[m[K.openDevice(SERIAL_PORT, 19200);
+[11.410s]       |                       [01;31m[K^~~~~~[m[K
+[11.423s] [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:27:41:[m[K [01;31m[Kerror: [m[K‘[01m[KSERIAL_PORT[m[K’ was not declared in this scope
+[11.424s]    27 |   char errorOpening = serial.openDevice([01;31m[KSERIAL_PORT[m[K, 19200);
+[11.424s]       |                                         [01;31m[K^~~~~~~~~~~[m[K
+[20.518s] gmake[2]: *** [CMakeFiles/dtc.dir/build.make:76: CMakeFiles/dtc.dir/src/dtc.cpp.o] Error 1
+[20.519s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dtc.dir/all] Error 2
+[20.520s] gmake: *** [Makefile:146: all] Error 2
+[20.526s] Invoked command in '/home/moses/marp/build/dtc' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4

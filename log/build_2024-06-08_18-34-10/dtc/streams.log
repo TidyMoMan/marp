@@ -1,0 +1,17 @@
+[0.048s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[0.224s] [35m[1mConsolidate compiler generated dependencies of target dtc[0m
+[0.327s] [ 50%] [32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o[0m
+[10.576s] [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.577s] [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:48:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kserial[m[K’
+[10.577s]    48 |   sleep(1000)
+[10.578s]       |              [01;31m[K^[m[K
+[10.578s]       |              [32m[K;[m[K
+[10.579s]    49 |   [32m[Kserial[m[K.writeString("0 0");
+[10.579s]       |   [32m[K~~~~~~[m[K      
+[10.590s] [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:45:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KerrorOpening[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.591s]    45 |   char [01;35m[KerrorOpening[m[K = serial.openDevice(SERIAL_PORT, 19200);
+[10.591s]       |        [01;35m[K^~~~~~~~~~~~[m[K
+[13.570s] gmake[2]: *** [CMakeFiles/dtc.dir/build.make:76: CMakeFiles/dtc.dir/src/dtc.cpp.o] Error 1
+[13.571s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dtc.dir/all] Error 2
+[13.572s] gmake: *** [Makefile:146: all] Error 2
+[13.578s] Invoked command in '/home/moses/marp/build/dtc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4

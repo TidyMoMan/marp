@@ -1,0 +1,289 @@
+[0.442s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'dtc']
+[0.442s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['dtc'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8a3644c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8a4b0b50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8a4b0b50>>, mixin_verb=('build',))
+[1.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.150s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/moses/marp'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtc) by extensions ['ignore', 'ignore_ament_install']
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtc) by extension 'ignore'
+[1.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtc) by extension 'ignore_ament_install'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtc) by extensions ['colcon_pkg']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtc) by extension 'colcon_pkg'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtc) by extensions ['colcon_meta']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtc) by extension 'colcon_meta'
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtc) by extensions ['ros']
+[1.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtc) by extension 'ros'
+[1.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dtc' with type 'ros.ament_cmake' and name 'dtc'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[1.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[1.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[1.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[1.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[1.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib) by extensions ['ignore', 'ignore_ament_install']
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib) by extension 'ignore'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib) by extension 'ignore_ament_install'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib) by extensions ['colcon_pkg']
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib) by extension 'colcon_pkg'
+[1.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib) by extensions ['colcon_meta']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib) by extension 'colcon_meta'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib) by extensions ['ros']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib) by extension 'ros'
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib) by extensions ['cmake', 'python']
+[1.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib) by extension 'cmake'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib) by extension 'python'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib) by extensions ['python_setup_py']
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib) by extension 'python_setup_py'
+[1.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example1) by extensions ['ignore', 'ignore_ament_install']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example1) by extension 'ignore'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example1) by extension 'ignore_ament_install'
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example1) by extensions ['colcon_pkg']
+[1.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example1) by extension 'colcon_pkg'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example1) by extensions ['colcon_meta']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example1) by extension 'colcon_meta'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example1) by extensions ['ros']
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example1) by extension 'ros'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example1) by extensions ['cmake', 'python']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example1) by extension 'cmake'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example1) by extension 'python'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example1) by extensions ['python_setup_py']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example1) by extension 'python_setup_py'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example2) by extensions ['ignore', 'ignore_ament_install']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example2) by extension 'ignore'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example2) by extension 'ignore_ament_install'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example2) by extensions ['colcon_pkg']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example2) by extension 'colcon_pkg'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example2) by extensions ['colcon_meta']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example2) by extension 'colcon_meta'
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example2) by extensions ['ros']
+[1.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example2) by extension 'ros'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example2) by extensions ['cmake', 'python']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example2) by extension 'cmake'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example2) by extension 'python'
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example2) by extensions ['python_setup_py']
+[1.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example2) by extension 'python_setup_py'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3) by extensions ['ignore', 'ignore_ament_install']
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3) by extension 'ignore'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3) by extension 'ignore_ament_install'
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3) by extensions ['colcon_pkg']
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3) by extension 'colcon_pkg'
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3) by extensions ['colcon_meta']
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3) by extension 'colcon_meta'
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3) by extensions ['ros']
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3) by extension 'ros'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3) by extensions ['cmake', 'python']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3) by extension 'cmake'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3) by extension 'python'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3) by extensions ['python_setup_py']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3) by extension 'python_setup_py'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3/arduino-code) by extensions ['ignore', 'ignore_ament_install']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3/arduino-code) by extension 'ignore'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3/arduino-code) by extension 'ignore_ament_install'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3/arduino-code) by extensions ['colcon_pkg']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3/arduino-code) by extension 'colcon_pkg'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3/arduino-code) by extensions ['colcon_meta']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3/arduino-code) by extension 'colcon_meta'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3/arduino-code) by extensions ['ros']
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3/arduino-code) by extension 'ros'
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3/arduino-code) by extensions ['cmake', 'python']
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3/arduino-code) by extension 'cmake'
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3/arduino-code) by extension 'python'
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3/arduino-code) by extensions ['python_setup_py']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example3/arduino-code) by extension 'python_setup_py'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4) by extensions ['ignore', 'ignore_ament_install']
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4) by extension 'ignore'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4) by extension 'ignore_ament_install'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4) by extensions ['colcon_pkg']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4) by extension 'colcon_pkg'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4) by extensions ['colcon_meta']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4) by extension 'colcon_meta'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4) by extensions ['ros']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4) by extension 'ros'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4) by extensions ['cmake', 'python']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4) by extension 'cmake'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4) by extension 'python'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4) by extensions ['python_setup_py']
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4) by extension 'python_setup_py'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4/arduino-code) by extensions ['ignore', 'ignore_ament_install']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4/arduino-code) by extension 'ignore'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4/arduino-code) by extension 'ignore_ament_install'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4/arduino-code) by extensions ['colcon_pkg']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4/arduino-code) by extension 'colcon_pkg'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4/arduino-code) by extensions ['colcon_meta']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4/arduino-code) by extension 'colcon_meta'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4/arduino-code) by extensions ['ros']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4/arduino-code) by extension 'ros'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4/arduino-code) by extensions ['cmake', 'python']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4/arduino-code) by extension 'cmake'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4/arduino-code) by extension 'python'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4/arduino-code) by extensions ['python_setup_py']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/example4/arduino-code) by extension 'python_setup_py'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/lib) by extensions ['ignore', 'ignore_ament_install']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/lib) by extension 'ignore'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/lib) by extension 'ignore_ament_install'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/lib) by extensions ['colcon_pkg']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/lib) by extension 'colcon_pkg'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/lib) by extensions ['colcon_meta']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/lib) by extension 'colcon_meta'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/lib) by extensions ['ros']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/lib) by extension 'ros'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/lib) by extensions ['cmake', 'python']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/lib) by extension 'cmake'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/lib) by extension 'python'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/lib) by extensions ['python_setup_py']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialib/lib) by extension 'python_setup_py'
+[1.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.338s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlesim' in 'src/ros_tutorials/turtlesim'
+[1.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.349s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/moses/marp/install
+[1.355s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 180 installed packages in /opt/ros/humble
+[1.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'dtc' build argument 'cmake_args' from command line to 'None'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'dtc' build argument 'cmake_target' from command line to 'None'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'dtc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.509s] Level 5:colcon.colcon_core.verb:set package 'dtc' build argument 'cmake_clean_cache' from command line to 'False'
+[1.510s] Level 5:colcon.colcon_core.verb:set package 'dtc' build argument 'cmake_clean_first' from command line to 'False'
+[1.510s] Level 5:colcon.colcon_core.verb:set package 'dtc' build argument 'cmake_force_configure' from command line to 'False'
+[1.510s] Level 5:colcon.colcon_core.verb:set package 'dtc' build argument 'ament_cmake_args' from command line to 'None'
+[1.510s] Level 5:colcon.colcon_core.verb:set package 'dtc' build argument 'catkin_cmake_args' from command line to 'None'
+[1.510s] Level 5:colcon.colcon_core.verb:set package 'dtc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.510s] DEBUG:colcon.colcon_core.verb:Building package 'dtc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moses/marp/build/dtc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moses/marp/install/dtc', 'merge_install': False, 'path': '/home/moses/marp/src/dtc', 'symlink_install': False, 'test_result_base': None}
+[1.511s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.514s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.515s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/moses/marp/src/dtc' with build type 'ament_cmake'
+[1.516s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/moses/marp/src/dtc'
+[1.525s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.526s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[20.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/moses/marp/build/dtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[20.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dtc
+[21.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dtc)
+[21.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/moses/marp/build/dtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dtc
+[21.040s] Level 1:colcon.colcon_core.environment:checking '/home/moses/marp/install/dtc' for CMake module files
+[21.042s] Level 1:colcon.colcon_core.environment:checking '/home/moses/marp/install/dtc' for CMake config files
+[21.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('dtc', 'cmake_prefix_path')
+[21.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moses/marp/install/dtc/share/dtc/hook/cmake_prefix_path.ps1'
+[21.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moses/marp/install/dtc/share/dtc/hook/cmake_prefix_path.dsv'
+[21.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moses/marp/install/dtc/share/dtc/hook/cmake_prefix_path.sh'
+[21.054s] Level 1:colcon.colcon_core.environment:checking '/home/moses/marp/install/dtc/lib'
+[21.055s] Level 1:colcon.colcon_core.environment:checking '/home/moses/marp/install/dtc/bin'
+[21.055s] Level 1:colcon.colcon_core.environment:checking '/home/moses/marp/install/dtc/lib/pkgconfig/dtc.pc'
+[21.056s] Level 1:colcon.colcon_core.environment:checking '/home/moses/marp/install/dtc/lib/python3.10/site-packages'
+[21.057s] Level 1:colcon.colcon_core.environment:checking '/home/moses/marp/install/dtc/bin'
+[21.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/moses/marp/install/dtc/share/dtc/package.ps1'
+[21.062s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/moses/marp/install/dtc/share/dtc/package.dsv'
+[21.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/moses/marp/install/dtc/share/dtc/package.sh'
+[21.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/moses/marp/install/dtc/share/dtc/package.bash'
+[21.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/moses/marp/install/dtc/share/dtc/package.zsh'
+[21.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/moses/marp/install/dtc/share/colcon-core/packages/dtc)
+[21.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dtc)
+[21.215s] Level 1:colcon.colcon_core.environment:checking '/home/moses/marp/install/dtc' for CMake module files
+[21.219s] Level 1:colcon.colcon_core.environment:checking '/home/moses/marp/install/dtc' for CMake config files
+[21.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('dtc', 'cmake_prefix_path')
+[21.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moses/marp/install/dtc/share/dtc/hook/cmake_prefix_path.ps1'
+[21.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moses/marp/install/dtc/share/dtc/hook/cmake_prefix_path.dsv'
+[21.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moses/marp/install/dtc/share/dtc/hook/cmake_prefix_path.sh'
+[21.239s] Level 1:colcon.colcon_core.environment:checking '/home/moses/marp/install/dtc/lib'
+[21.240s] Level 1:colcon.colcon_core.environment:checking '/home/moses/marp/install/dtc/bin'
+[21.241s] Level 1:colcon.colcon_core.environment:checking '/home/moses/marp/install/dtc/lib/pkgconfig/dtc.pc'
+[21.244s] Level 1:colcon.colcon_core.environment:checking '/home/moses/marp/install/dtc/lib/python3.10/site-packages'
+[21.247s] Level 1:colcon.colcon_core.environment:checking '/home/moses/marp/install/dtc/bin'
+[21.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/moses/marp/install/dtc/share/dtc/package.ps1'
+[21.254s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/moses/marp/install/dtc/share/dtc/package.dsv'
+[21.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/moses/marp/install/dtc/share/dtc/package.sh'
+[21.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/moses/marp/install/dtc/share/dtc/package.bash'
+[21.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/moses/marp/install/dtc/share/dtc/package.zsh'
+[21.266s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/moses/marp/install/dtc/share/colcon-core/packages/dtc)
+[21.268s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.269s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[21.271s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.299s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[21.299s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[21.299s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[21.300s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[21.303s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[21.303s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.304s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/moses/marp/install/local_setup.ps1'
+[21.308s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/moses/marp/install/_local_setup_util_ps1.py'
+[21.313s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/moses/marp/install/setup.ps1'
+[21.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/moses/marp/install/local_setup.sh'
+[21.321s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/moses/marp/install/_local_setup_util_sh.py'
+[21.323s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/moses/marp/install/setup.sh'
+[21.329s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/moses/marp/install/local_setup.bash'
+[21.331s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/moses/marp/install/setup.bash'
+[21.336s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/moses/marp/install/local_setup.zsh'
+[21.338s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/moses/marp/install/setup.zsh'

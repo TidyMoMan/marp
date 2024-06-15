@@ -13,6 +13,8 @@ find_package(std_msgs REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+include_directories(include)
+
 add_executable(dtc src/dtc.cpp)
 ament_target_dependencies(dtc rclcpp std_msgs)
 target_include_directories(dtc PUBLIC

@@ -1,6 +1,6 @@
 source ros setup for workspace (needed to run ros2 commands): source /opt/ros/humble/setup.bash 
 source setup file (needed for running nodes): source install/local_setup.bash
-
+                                                . install/setup.bash
 
 
 colcon: 

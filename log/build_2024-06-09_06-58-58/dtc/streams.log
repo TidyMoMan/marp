@@ -1,0 +1,11 @@
+[0.055s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[0.230s] [35m[1mConsolidate compiler generated dependencies of target dtc[0m
+[0.332s] [ 50%] [32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o[0m
+[0.932s] [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:7:10:[m[K [01;31m[Kfatal error: [m[K/home/moses/marp/src/dtc/include/dtc/lib/serialib.h: No such file or directory
+[0.933s]     7 | #include [01;31m[K"/home/moses/marp/src/dtc/include/dtc/lib/serialib.h"[m[K
+[0.933s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.934s] compilation terminated.
+[0.938s] gmake[2]: *** [CMakeFiles/dtc.dir/build.make:76: CMakeFiles/dtc.dir/src/dtc.cpp.o] Error 1
+[0.939s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dtc.dir/all] Error 2
+[0.940s] gmake: *** [Makefile:146: all] Error 2
+[0.946s] Invoked command in '/home/moses/marp/build/dtc' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4

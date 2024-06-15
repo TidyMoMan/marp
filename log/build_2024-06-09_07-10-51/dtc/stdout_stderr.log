@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target dtc[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o[0m
+[100%] [32m[1mLinking CXX executable dtc[0m
+/usr/bin/ld: CMakeFiles/dtc.dir/src/dtc.cpp.o: in function `__static_initialization_and_destruction_0(int, int)':
+dtc.cpp:(.text+0x1f8): undefined reference to `serialib::serialib()'
+/usr/bin/ld: dtc.cpp:(.text+0x20c): undefined reference to `serialib::~serialib()'
+/usr/bin/ld: dtc.cpp:(.text+0x210): undefined reference to `serialib::~serialib()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/dtc.dir/build.make:159: dtc] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dtc.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

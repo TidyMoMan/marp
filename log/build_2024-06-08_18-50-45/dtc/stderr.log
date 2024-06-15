@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:12 (find_library):
+  Could not find serialib using the following names:
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

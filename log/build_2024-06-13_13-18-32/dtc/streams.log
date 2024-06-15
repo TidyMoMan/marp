@@ -1,0 +1,24 @@
+[0.047s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[0.218s] [35m[1mConsolidate compiler generated dependencies of target dtc[0m
+[0.308s] [ 50%] [32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o[0m
+[2.764s] In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:59[m[K:
+[2.765s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)[m[K’:
+[2.766s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:576:21:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[2.766s]   576 |         if ([01;35m[KcharRead<0[m[K) return charRead;
+[2.767s]       |             [01;35m[K~~~~~~~~^~[m[K
+[2.767s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readString(char*, char, unsigned int, unsigned int)[m[K’:
+[2.767s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:639:25:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[2.768s]   639 |             if ([01;35m[KcharRead<0[m[K) return charRead;
+[2.768s]       |                 [01;35m[K~~~~~~~~^~[m[K
+[10.623s] [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.623s] [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:87:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial[m[K’ was not declared in this scope; did you mean ‘[01m[Kserialib[m[K’?
+[10.624s]    87 |   char errorOpening = [01;31m[Kserial[m[K.openDevice(SERIAL_PORT, 19200);
+[10.624s]       |                       [01;31m[K^~~~~~[m[K
+[10.625s]       |                       [32m[Kserialib[m[K
+[10.639s] [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:87:41:[m[K [01;31m[Kerror: [m[K‘[01m[KSERIAL_PORT[m[K’ was not declared in this scope
+[10.640s]    87 |   char errorOpening = serial.openDevice([01;31m[KSERIAL_PORT[m[K, 19200);
+[10.640s]       |                                         [01;31m[K^~~~~~~~~~~[m[K
+[19.173s] gmake[2]: *** [CMakeFiles/dtc.dir/build.make:76: CMakeFiles/dtc.dir/src/dtc.cpp.o] Error 1
+[19.174s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dtc.dir/all] Error 2
+[19.175s] gmake: *** [Makefile:146: all] Error 2
+[19.182s] Invoked command in '/home/moses/marp/build/dtc' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
