@@ -1,0 +1,337 @@
+[0.084s] Invoking command in '/home/moses/marp/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/turtlesim -- -j4 -l4
+[0.384s] [  1%] Built target turtlesim__cpp
+[0.402s] [ 11%] Built target turtlesim__rosidl_generator_c
+[0.531s] [ 11%] Built target ament_cmake_python_copy_turtlesim
+[0.670s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[0.716s] [ 31%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.727s] [ 41%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.818s] [ 51%] Built target turtlesim__rosidl_typesupport_c
+[0.977s] [ 61%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[1.071s] [ 63%] Built target turtle_teleop_key
+[1.093s] [ 69%] Built target turtlesim_node
+[1.285s] [ 71%] Built target mimic
+[1.289s] [ 76%] Built target draw_square
+[1.292s] [ 83%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[1.388s] [ 83%] Built target turtlesim
+[1.521s] [ 84%] Built target turtlesim__py
+[1.679s] [ 93%] Built target turtlesim__rosidl_generator_py
+[1.843s] [ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[1.885s] [ 97%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[1.910s] [100%] Built target turtlesim__rosidl_typesupport_c__pyext
+[2.577s] running egg_info
+[2.584s] writing turtlesim.egg-info/PKG-INFO
+[2.587s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[2.588s] writing top-level names to turtlesim.egg-info/top_level.txt
+[2.598s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[2.602s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[2.779s] [100%] Built target ament_cmake_python_build_turtlesim_egg
+[2.879s] Invoked command in '/home/moses/marp/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/turtlesim -- -j4 -l4
+[4.320s] Invoking command in '/home/moses/marp/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/turtlesim
+[4.359s] -- Install configuration: ""
+[4.361s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[4.363s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim
+[4.364s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv
+[4.366s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[4.367s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[4.369s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[4.370s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[4.372s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[4.374s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[4.376s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[4.377s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[4.379s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[4.380s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[4.382s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[4.383s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[4.385s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[4.387s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[4.388s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[4.390s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[4.391s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[4.394s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[4.395s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[4.395s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[4.399s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[4.399s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[4.400s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[4.404s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[4.407s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[4.408s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[4.409s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action
+[4.410s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[4.410s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[4.411s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[4.418s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[4.419s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[4.420s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[4.420s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg
+[4.426s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[4.427s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[4.427s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[4.428s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[4.428s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[4.429s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[4.430s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[4.430s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[4.431s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[4.432s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[4.432s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[4.433s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[4.442s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/library_path.sh
+[4.444s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[4.449s] -- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[4.452s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim
+[4.456s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv
+[4.457s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[4.459s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[4.466s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[4.467s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[4.468s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[4.469s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[4.470s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action
+[4.470s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[4.471s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[4.472s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg
+[4.473s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.478s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[4.478s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[4.479s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[4.480s] -- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[4.480s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim
+[4.481s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv
+[4.481s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[4.482s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[4.482s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[4.483s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[4.483s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[4.484s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[4.487s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[4.488s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[4.491s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[4.495s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[4.496s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[4.496s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[4.497s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[4.497s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[4.498s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[4.498s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[4.499s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[4.499s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[4.500s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[4.501s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[4.503s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[4.504s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action
+[4.506s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[4.517s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[4.518s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[4.519s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[4.520s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[4.520s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg
+[4.524s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[4.525s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[4.525s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[4.526s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[4.533s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[4.534s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[4.535s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[4.536s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[4.537s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[4.537s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim
+[4.538s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv
+[4.539s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[4.540s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[4.549s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[4.550s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[4.551s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[4.552s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[4.553s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[4.554s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action
+[4.555s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[4.556s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[4.556s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[4.556s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg
+[4.557s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.557s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[4.558s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[4.559s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[4.559s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[4.560s] -- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[4.560s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim
+[4.561s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv
+[4.562s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[4.563s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[4.564s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[4.564s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[4.565s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[4.566s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[4.566s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[4.567s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[4.567s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[4.568s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[4.568s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[4.569s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action
+[4.569s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[4.570s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[4.571s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[4.571s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg
+[4.572s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[4.572s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[4.573s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[4.574s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[4.574s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[4.575s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.576s] -- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[4.577s] -- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[4.578s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim
+[4.579s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv
+[4.580s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[4.581s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[4.582s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[4.583s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[4.584s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[4.585s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[4.586s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[4.586s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[4.587s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[4.588s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[4.589s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[4.589s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action
+[4.590s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[4.591s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[4.592s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[4.592s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg
+[4.593s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[4.594s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[4.594s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[4.595s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[4.596s] -- Up-to-date: /home/moses/marp/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[4.597s] -- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[4.598s] -- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[4.599s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[4.599s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[4.600s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info
+[4.601s] -- Installing: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt
+[4.601s] -- Installing: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt
+[4.602s] -- Installing: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO
+[4.603s] -- Installing: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt
+[4.603s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim
+[4.604s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py
+[4.604s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so
+[4.605s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+[4.606s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.607s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.609s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.609s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv
+[4.610s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py
+[4.610s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c
+[4.611s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py
+[4.611s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py
+[4.612s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py
+[4.613s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c
+[4.614s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c
+[4.614s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c
+[4.615s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c
+[4.616s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py
+[4.616s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py
+[4.617s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
+[4.618s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action
+[4.618s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py
+[4.618s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py
+[4.619s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c
+[4.620s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg
+[4.621s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py
+[4.622s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c
+[4.622s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c
+[4.623s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py
+[4.624s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py
+[4.625s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.767s] Listing '/home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...
+[4.768s] Listing '/home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...
+[4.770s] Listing '/home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...
+[4.772s] Listing '/home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...
+[4.797s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.799s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.802s] -- Up-to-date: /home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.805s] -- Up-to-date: /home/moses/marp/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so
+[4.807s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[4.808s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/msg/Color.idl
+[4.810s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/msg/Pose.idl
+[4.811s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Kill.idl
+[4.811s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[4.812s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[4.813s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[4.814s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[4.814s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[4.816s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/msg/Color.msg
+[4.818s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/msg/Pose.msg
+[4.819s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Kill.srv
+[4.821s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[4.824s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[4.827s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[4.830s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[4.832s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[4.833s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[4.833s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[4.834s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[4.840s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[4.841s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[4.841s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[4.842s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[4.850s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[4.851s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[4.851s] -- Up-to-date: /home/moses/marp/install/turtlesim/lib/turtlesim/turtlesim_node
+[4.852s] -- Up-to-date: /home/moses/marp/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[4.853s] -- Up-to-date: /home/moses/marp/install/turtlesim/lib/turtlesim/draw_square
+[4.856s] -- Up-to-date: /home/moses/marp/install/turtlesim/lib/turtlesim/mimic
+[4.858s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images
+[4.863s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/humble.png
+[4.863s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/crystal.png
+[4.864s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/eloquent.png
+[4.865s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/rolling.png
+[4.866s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/foxy.png
+[4.873s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/bouncy.png
+[4.874s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/galactic.png
+[4.874s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/ardent.png
+[4.875s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/images/dashing.png
+[4.876s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/launch
+[4.877s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[4.878s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[4.878s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[4.879s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[4.880s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[4.880s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/path.sh
+[4.881s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/environment/path.dsv
+[4.882s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/local_setup.bash
+[4.883s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/local_setup.sh
+[4.883s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/local_setup.zsh
+[4.884s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/local_setup.dsv
+[4.895s] -- Installing: /home/moses/marp/install/turtlesim/share/turtlesim/package.dsv
+[4.897s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[4.898s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[4.899s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[4.900s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[4.901s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.903s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[4.911s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.911s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.912s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[4.916s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.917s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[4.918s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[4.918s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[4.920s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.922s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[4.924s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[4.924s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake
+[4.925s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake
+[4.925s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[4.926s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.927s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.943s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[4.946s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[4.948s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.950s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.951s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[4.953s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[4.955s] -- Up-to-date: /home/moses/marp/install/turtlesim/share/turtlesim/package.xml
+[4.966s] Invoked command in '/home/moses/marp/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/turtlesim

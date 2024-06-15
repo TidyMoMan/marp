@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+In file included from [01m[K/home/moses/marp/src/controller/src/controller.cpp:7[m[K:
+[01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)[m[K’:
+[01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:576:21:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  576 |         if ([01;35m[KcharRead<0[m[K) return charRead;
+      |             [01;35m[K~~~~~~~~^~[m[K
+[01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readString(char*, char, unsigned int, unsigned int)[m[K’:
+[01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:639:25:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  639 |             if ([01;35m[KcharRead<0[m[K) return charRead;
+      |                 [01;35m[K~~~~~~~~^~[m[K
+[100%] [32m[1mLinking CXX executable controller[0m
+[100%] Built target controller
+-- Install configuration: ""
+-- Installing: /home/moses/marp/install/controller/lib/controller/controller
+-- Set runtime path of "/home/moses/marp/install/controller/lib/controller/controller" to ""
+-- Installing: /home/moses/marp/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+-- Installing: /home/moses/marp/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+-- Installing: /home/moses/marp/install/controller/share/controller/environment/ament_prefix_path.sh
+-- Installing: /home/moses/marp/install/controller/share/controller/environment/ament_prefix_path.dsv
+-- Installing: /home/moses/marp/install/controller/share/controller/environment/path.sh
+-- Installing: /home/moses/marp/install/controller/share/controller/environment/path.dsv
+-- Installing: /home/moses/marp/install/controller/share/controller/local_setup.bash
+-- Installing: /home/moses/marp/install/controller/share/controller/local_setup.sh
+-- Installing: /home/moses/marp/install/controller/share/controller/local_setup.zsh
+-- Installing: /home/moses/marp/install/controller/share/controller/local_setup.dsv
+-- Installing: /home/moses/marp/install/controller/share/controller/package.dsv
+-- Installing: /home/moses/marp/install/controller/share/ament_index/resource_index/packages/controller
+-- Installing: /home/moses/marp/install/controller/share/controller/cmake/controllerConfig.cmake
+-- Installing: /home/moses/marp/install/controller/share/controller/cmake/controllerConfig-version.cmake
+-- Installing: /home/moses/marp/install/controller/share/controller/package.xml

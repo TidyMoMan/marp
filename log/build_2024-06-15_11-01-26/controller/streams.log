@@ -1,0 +1,10 @@
+[0.080s] Invoking command in '/home/moses/marp/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4
+[0.331s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[0.784s] [01m[K/home/moses/marp/src/controller/src/controller.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.787s]    11 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.788s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.792s] compilation terminated.
+[0.829s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+[0.830s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controller.dir/all] Error 2
+[0.830s] gmake: *** [Makefile:146: all] Error 2
+[0.843s] Invoked command in '/home/moses/marp/build/controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4

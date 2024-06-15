@@ -34,8 +34,10 @@ class MinimalPublisher : public rclcpp::Node
   private:
     void timer_callback()
     {
+      char buffer[32];
       auto message = std_msgs::msg::String();
-      message.data = serial.readString();
+      serial.readString(buffer, '\n', sizeof(buffer), 2000);
+      message.data = buffer;
       RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
       publisher_->publish(message);
     }

@@ -1,0 +1,35 @@
+[0.081s] Invoking command in '/home/moses/marp/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4
+[0.262s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.389s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[4.784s] In file included from [01m[K/home/moses/marp/src/controller/src/controller.cpp:7[m[K:
+[4.784s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)[m[K’:
+[4.785s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:576:21:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[4.788s]   576 |         if ([01;35m[KcharRead<0[m[K) return charRead;
+[4.789s]       |             [01;35m[K~~~~~~~~^~[m[K
+[4.789s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readString(char*, char, unsigned int, unsigned int)[m[K’:
+[4.790s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:639:25:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[4.790s]   639 |             if ([01;35m[KcharRead<0[m[K) return charRead;
+[4.791s]       |                 [01;35m[K~~~~~~~~^~[m[K
+[21.857s] [100%] [32m[1mLinking CXX executable controller[0m
+[22.817s] [100%] Built target controller
+[22.858s] Invoked command in '/home/moses/marp/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4
+[22.985s] Invoking command in '/home/moses/marp/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/controller
+[23.013s] -- Install configuration: ""
+[23.014s] -- Installing: /home/moses/marp/install/controller/lib/controller/controller
+[23.024s] -- Set runtime path of "/home/moses/marp/install/controller/lib/controller/controller" to ""
+[23.025s] -- Installing: /home/moses/marp/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[23.027s] -- Installing: /home/moses/marp/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[23.029s] -- Installing: /home/moses/marp/install/controller/share/controller/environment/ament_prefix_path.sh
+[23.034s] -- Installing: /home/moses/marp/install/controller/share/controller/environment/ament_prefix_path.dsv
+[23.039s] -- Installing: /home/moses/marp/install/controller/share/controller/environment/path.sh
+[23.040s] -- Installing: /home/moses/marp/install/controller/share/controller/environment/path.dsv
+[23.046s] -- Installing: /home/moses/marp/install/controller/share/controller/local_setup.bash
+[23.047s] -- Installing: /home/moses/marp/install/controller/share/controller/local_setup.sh
+[23.047s] -- Installing: /home/moses/marp/install/controller/share/controller/local_setup.zsh
+[23.048s] -- Installing: /home/moses/marp/install/controller/share/controller/local_setup.dsv
+[23.049s] -- Installing: /home/moses/marp/install/controller/share/controller/package.dsv
+[23.049s] -- Installing: /home/moses/marp/install/controller/share/ament_index/resource_index/packages/controller
+[23.050s] -- Installing: /home/moses/marp/install/controller/share/controller/cmake/controllerConfig.cmake
+[23.051s] -- Installing: /home/moses/marp/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[23.051s] -- Installing: /home/moses/marp/install/controller/share/controller/package.xml
+[23.061s] Invoked command in '/home/moses/marp/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/controller

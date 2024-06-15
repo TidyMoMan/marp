@@ -1,0 +1,1 @@
+Invoking command in '/home/moses/marp/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/turtlesim -- -j4 -l4

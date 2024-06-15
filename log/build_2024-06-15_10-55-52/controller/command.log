@@ -1,0 +1,4 @@
+Invoking command in '/home/moses/marp/build/controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/moses/marp/src/controller -DCMAKE_INSTALL_PREFIX=/home/moses/marp/install/controller
+Invoked command in '/home/moses/marp/build/controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/moses/marp/src/controller -DCMAKE_INSTALL_PREFIX=/home/moses/marp/install/controller
+Invoking command in '/home/moses/marp/build/controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4
+Invoked command in '/home/moses/marp/build/controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4

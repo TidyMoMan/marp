@@ -1,0 +1,45 @@
+[0.085s] Invoking command in '/home/moses/marp/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4
+[0.195s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.543s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.793s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.813s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.868s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.951s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.062s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.355s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.365s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.057s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.915s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.315s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.315s] -- Configured cppcheck include dirs: /home/moses/marp/src/controller/include;$<BUILD_INTERFACE:/home/moses/marp/src/controller/include>
+[4.316s] -- Configured cppcheck exclude dirs and/or files: 
+[4.319s] -- Added test 'lint_cmake' to check CMake code style
+[4.324s] -- Added test 'uncrustify' to check C / C++ code style
+[4.325s] -- Configured uncrustify additional arguments: 
+[4.326s] -- Added test 'xmllint' to check XML markup files
+[4.331s] -- Configuring done
+[4.394s] -- Generating done
+[4.405s] -- Build files have been written to: /home/moses/marp/build/controller
+[4.569s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[8.037s] In file included from [01m[K/home/moses/marp/src/controller/src/controller.cpp:7[m[K:
+[8.038s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)[m[K’:
+[8.039s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:576:21:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[8.039s]   576 |         if ([01;35m[KcharRead<0[m[K) return charRead;
+[8.039s]       |             [01;35m[K~~~~~~~~^~[m[K
+[8.040s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readString(char*, char, unsigned int, unsigned int)[m[K’:
+[8.040s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:639:25:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[8.041s]   639 |             if ([01;35m[KcharRead<0[m[K) return charRead;
+[8.041s]       |                 [01;35m[K~~~~~~~~^~[m[K
+[14.836s] [01m[K/home/moses/marp/src/controller/src/controller.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[14.836s] [01m[K/home/moses/marp/src/controller/src/controller.cpp:38:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kserialib::readString()[m[K’
+[14.837s]    38 |       message.data = [01;31m[Kserial.readString()[m[K;
+[14.837s]       |                      [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[14.837s] In file included from [01m[K/home/moses/marp/src/controller/src/controller.cpp:7[m[K:
+[14.838s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:595:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint serialib::readString(char*, char, unsigned int, unsigned int)[m[K’
+[14.838s]   595 | int [01;36m[Kserialib[m[K::readString(char *receivedString,char finalChar,unsigned int maxNbBytes,unsigned int timeOut_ms)
+[14.838s]       |     [01;36m[K^~~~~~~~[m[K
+[14.840s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:595:5:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[17.830s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+[17.830s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controller.dir/all] Error 2
+[17.832s] gmake: *** [Makefile:146: all] Error 2
+[17.838s] Invoked command in '/home/moses/marp/build/controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4

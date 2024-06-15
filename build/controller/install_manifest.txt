@@ -1,0 +1,16 @@
+/home/moses/marp/install/controller/lib/controller/controller
+/home/moses/marp/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+/home/moses/marp/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+/home/moses/marp/install/controller/share/controller/environment/ament_prefix_path.sh
+/home/moses/marp/install/controller/share/controller/environment/ament_prefix_path.dsv
+/home/moses/marp/install/controller/share/controller/environment/path.sh
+/home/moses/marp/install/controller/share/controller/environment/path.dsv
+/home/moses/marp/install/controller/share/controller/local_setup.bash
+/home/moses/marp/install/controller/share/controller/local_setup.sh
+/home/moses/marp/install/controller/share/controller/local_setup.zsh
+/home/moses/marp/install/controller/share/controller/local_setup.dsv
+/home/moses/marp/install/controller/share/controller/package.dsv
+/home/moses/marp/install/controller/share/ament_index/resource_index/packages/controller
+/home/moses/marp/install/controller/share/controller/cmake/controllerConfig.cmake
+/home/moses/marp/install/controller/share/controller/cmake/controllerConfig-version.cmake
+/home/moses/marp/install/controller/share/controller/package.xml

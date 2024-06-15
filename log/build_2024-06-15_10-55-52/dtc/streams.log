@@ -1,0 +1,14 @@
+[0.071s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target dtc[0m
+[0.347s] [ 50%] [32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o[0m
+[5.111s] In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[5.112s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)[m[K’:
+[5.112s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:576:21:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[5.113s]   576 |         if ([01;35m[KcharRead<0[m[K) return charRead;
+[5.114s]       |             [01;35m[K~~~~~~~~^~[m[K
+[5.114s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readString(char*, char, unsigned int, unsigned int)[m[K’:
+[5.115s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:639:25:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[5.115s]   639 |             if ([01;35m[KcharRead<0[m[K) return charRead;
+[5.116s]       |                 [01;35m[K~~~~~~~~^~[m[K
+[37.157s] [100%] [32m[1mLinking CXX executable dtc[0m
+[39.037s] [100%] Built target dtc

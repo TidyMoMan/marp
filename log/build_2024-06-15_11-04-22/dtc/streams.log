@@ -1,0 +1,22 @@
+[0.083s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[0.384s] [100%] Built target dtc
+[0.484s] Invoked command in '/home/moses/marp/build/dtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[0.957s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dtc
+[1.036s] -- Install configuration: ""
+[1.038s] -- Up-to-date: /home/moses/marp/install/dtc/lib/dtc/dtc
+[1.043s] -- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/package_run_dependencies/dtc
+[1.044s] -- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/parent_prefix_path/dtc
+[1.045s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/ament_prefix_path.sh
+[1.045s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/ament_prefix_path.dsv
+[1.049s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/path.sh
+[1.050s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/path.dsv
+[1.050s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.bash
+[1.051s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.sh
+[1.055s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.zsh
+[1.056s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.dsv
+[1.056s] -- Installing: /home/moses/marp/install/dtc/share/dtc/package.dsv
+[1.063s] -- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/packages/dtc
+[1.064s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/cmake/dtcConfig.cmake
+[1.066s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/cmake/dtcConfig-version.cmake
+[1.104s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/package.xml
+[1.106s] Invoked command in '/home/moses/marp/build/dtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dtc

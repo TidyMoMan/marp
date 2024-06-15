@@ -1,0 +1,21 @@
+[0.079s] Invoking command in '/home/moses/marp/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4
+[0.194s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.363s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.686s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.704s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.756s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.876s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.262s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.270s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.937s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.639s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[3.639s]   ament_target_dependencies() the first argument must be a valid target name
+[3.640s] Call Stack (most recent call first):
+[3.640s]   CMakeLists.txt:19 (ament_target_dependencies)
+[3.641s] 
+[3.642s] [0m
+[3.645s] -- Configuring incomplete, errors occurred!
+[3.647s] See also "/home/moses/marp/build/controller/CMakeFiles/CMakeOutput.log".
+[3.667s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[3.676s] Invoked command in '/home/moses/marp/build/controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4

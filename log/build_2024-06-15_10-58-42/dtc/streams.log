@@ -1,0 +1,22 @@
+[0.076s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[0.446s] [100%] Built target dtc
+[0.514s] Invoked command in '/home/moses/marp/build/dtc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[1.023s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dtc
+[1.119s] -- Install configuration: ""
+[1.121s] -- Up-to-date: /home/moses/marp/install/dtc/lib/dtc/dtc
+[1.123s] -- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/package_run_dependencies/dtc
+[1.124s] -- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/parent_prefix_path/dtc
+[1.125s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/ament_prefix_path.sh
+[1.125s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/ament_prefix_path.dsv
+[1.125s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/path.sh
+[1.126s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/path.dsv
+[1.142s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.bash
+[1.142s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.sh
+[1.143s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.zsh
+[1.144s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.dsv
+[1.145s] -- Installing: /home/moses/marp/install/dtc/share/dtc/package.dsv
+[1.145s] -- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/packages/dtc
+[1.146s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/cmake/dtcConfig.cmake
+[1.147s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/cmake/dtcConfig-version.cmake
+[1.148s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/package.xml
+[1.161s] Invoked command in '/home/moses/marp/build/dtc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dtc
