@@ -1,0 +1,23 @@
+[0.080s] Invoking command in '/home/moses/marp/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4
+[0.278s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.481s] [100%] Built target controller
+[0.594s] Invoked command in '/home/moses/marp/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4
+[1.009s] Invoking command in '/home/moses/marp/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/controller
+[1.112s] -- Install configuration: ""
+[1.114s] -- Up-to-date: /home/moses/marp/install/controller/lib/controller/controller
+[1.114s] -- Up-to-date: /home/moses/marp/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[1.114s] -- Up-to-date: /home/moses/marp/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[1.115s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/environment/ament_prefix_path.sh
+[1.115s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/environment/ament_prefix_path.dsv
+[1.115s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/environment/path.sh
+[1.116s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/environment/path.dsv
+[1.116s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/local_setup.bash
+[1.127s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/local_setup.sh
+[1.127s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/local_setup.zsh
+[1.128s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/local_setup.dsv
+[1.128s] -- Installing: /home/moses/marp/install/controller/share/controller/package.dsv
+[1.145s] -- Up-to-date: /home/moses/marp/install/controller/share/ament_index/resource_index/packages/controller
+[1.146s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/cmake/controllerConfig.cmake
+[1.146s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[1.147s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/package.xml
+[1.280s] Invoked command in '/home/moses/marp/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moses/marp/install/turtlesim:/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/controller
