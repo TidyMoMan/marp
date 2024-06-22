@@ -1,0 +1,240 @@
+[0.000000] (-) TimerEvent: {}
+[0.001659] (-) JobUnselected: {'identifier': 'dtc'}
+[0.002275] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002775] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.003024] (controller) JobStarted: {'identifier': 'controller'}
+[0.035734] (controller) JobProgress: {'identifier': 'controller', 'progress': 'cmake'}
+[0.039025] (controller) JobProgress: {'identifier': 'controller', 'progress': 'build'}
+[0.042396] (controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/moses/marp/build/controller', '--', '-j4', '-l4'], 'cwd': '/home/moses/marp/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'moses'), ('SSH_CLIENT', '192.168.4.101 43027 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/moses'), ('OLDPWD', '/home/moses/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-096d1b1c-ba99-40cd-bf38-45f69677cebc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'moses'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a1973280a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/moses/marp/build/controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.4.101 43027 192.168.4.225 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099033] (-) TimerEvent: {}
+[0.199922] (-) TimerEvent: {}
+[0.215581] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller\x1b[0m\n'}
+[0.300180] (-) TimerEvent: {}
+[0.316738] (controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o\x1b[0m\n'}
+[0.400367] (-) TimerEvent: {}
+[0.501071] (-) TimerEvent: {}
+[0.601867] (-) TimerEvent: {}
+[0.702820] (-) TimerEvent: {}
+[0.804230] (-) TimerEvent: {}
+[0.905100] (-) TimerEvent: {}
+[1.005812] (-) TimerEvent: {}
+[1.106578] (-) TimerEvent: {}
+[1.207337] (-) TimerEvent: {}
+[1.308776] (-) TimerEvent: {}
+[1.409662] (-) TimerEvent: {}
+[1.510526] (-) TimerEvent: {}
+[1.611313] (-) TimerEvent: {}
+[1.712079] (-) TimerEvent: {}
+[1.812792] (-) TimerEvent: {}
+[1.913545] (-) TimerEvent: {}
+[2.014373] (-) TimerEvent: {}
+[2.115226] (-) TimerEvent: {}
+[2.216064] (-) TimerEvent: {}
+[2.316955] (-) TimerEvent: {}
+[2.417802] (-) TimerEvent: {}
+[2.518718] (-) TimerEvent: {}
+[2.619541] (-) TimerEvent: {}
+[2.720337] (-) TimerEvent: {}
+[2.821166] (-) TimerEvent: {}
+[2.922038] (-) TimerEvent: {}
+[3.022939] (-) TimerEvent: {}
+[3.123741] (-) TimerEvent: {}
+[3.224662] (-) TimerEvent: {}
+[3.320219] (controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/controller/src/controller.cpp:7\x1b[m\x1b[K:\n'}
+[3.321000] (controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serialib/lib/serialib.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.321682] (controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serialib/lib/serialib.cpp:576:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison is always false due to limited range of data type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.322107] (controller) StderrLine: {'line': b'  576 |         if (\x1b[01;35m\x1b[KcharRead<0\x1b[m\x1b[K) return charRead;\n'}
+[3.322479] (controller) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.322927] (controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serialib/lib/serialib.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint serialib::readString(char*, char, unsigned int, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.323398] (controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serialib/lib/serialib.cpp:639:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison is always false due to limited range of data type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.323804] (controller) StderrLine: {'line': b'  639 |             if (\x1b[01;35m\x1b[KcharRead<0\x1b[m\x1b[K) return charRead;\n'}
+[3.324168] (controller) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.324780] (-) TimerEvent: {}
+[3.425505] (-) TimerEvent: {}
+[3.526475] (-) TimerEvent: {}
+[3.627506] (-) TimerEvent: {}
+[3.728524] (-) TimerEvent: {}
+[3.830954] (-) TimerEvent: {}
+[3.931788] (-) TimerEvent: {}
+[4.032815] (-) TimerEvent: {}
+[4.133714] (-) TimerEvent: {}
+[4.235319] (-) TimerEvent: {}
+[4.336617] (-) TimerEvent: {}
+[4.437771] (-) TimerEvent: {}
+[4.540162] (-) TimerEvent: {}
+[4.641096] (-) TimerEvent: {}
+[4.742034] (-) TimerEvent: {}
+[4.843074] (-) TimerEvent: {}
+[4.944035] (-) TimerEvent: {}
+[5.045114] (-) TimerEvent: {}
+[5.146407] (-) TimerEvent: {}
+[5.247837] (-) TimerEvent: {}
+[5.348670] (-) TimerEvent: {}
+[5.449515] (-) TimerEvent: {}
+[5.550460] (-) TimerEvent: {}
+[5.651400] (-) TimerEvent: {}
+[5.752388] (-) TimerEvent: {}
+[5.853458] (-) TimerEvent: {}
+[5.954441] (-) TimerEvent: {}
+[6.055783] (-) TimerEvent: {}
+[6.157375] (-) TimerEvent: {}
+[6.258265] (-) TimerEvent: {}
+[6.359195] (-) TimerEvent: {}
+[6.460508] (-) TimerEvent: {}
+[6.561353] (-) TimerEvent: {}
+[6.662233] (-) TimerEvent: {}
+[6.763151] (-) TimerEvent: {}
+[6.864008] (-) TimerEvent: {}
+[6.965097] (-) TimerEvent: {}
+[7.065982] (-) TimerEvent: {}
+[7.166997] (-) TimerEvent: {}
+[7.267827] (-) TimerEvent: {}
+[7.368693] (-) TimerEvent: {}
+[7.469519] (-) TimerEvent: {}
+[7.570480] (-) TimerEvent: {}
+[7.671326] (-) TimerEvent: {}
+[7.772147] (-) TimerEvent: {}
+[7.873006] (-) TimerEvent: {}
+[7.973915] (-) TimerEvent: {}
+[8.074758] (-) TimerEvent: {}
+[8.175624] (-) TimerEvent: {}
+[8.276552] (-) TimerEvent: {}
+[8.377407] (-) TimerEvent: {}
+[8.478275] (-) TimerEvent: {}
+[8.579080] (-) TimerEvent: {}
+[8.679896] (-) TimerEvent: {}
+[8.780721] (-) TimerEvent: {}
+[8.881647] (-) TimerEvent: {}
+[8.982459] (-) TimerEvent: {}
+[9.083386] (-) TimerEvent: {}
+[9.184351] (-) TimerEvent: {}
+[9.285236] (-) TimerEvent: {}
+[9.386054] (-) TimerEvent: {}
+[9.486910] (-) TimerEvent: {}
+[9.587772] (-) TimerEvent: {}
+[9.688725] (-) TimerEvent: {}
+[9.789659] (-) TimerEvent: {}
+[9.890514] (-) TimerEvent: {}
+[9.991376] (-) TimerEvent: {}
+[10.092181] (-) TimerEvent: {}
+[10.193015] (-) TimerEvent: {}
+[10.293840] (-) TimerEvent: {}
+[10.394644] (-) TimerEvent: {}
+[10.495475] (-) TimerEvent: {}
+[10.596329] (-) TimerEvent: {}
+[10.697201] (-) TimerEvent: {}
+[10.798027] (-) TimerEvent: {}
+[10.898894] (-) TimerEvent: {}
+[10.999746] (-) TimerEvent: {}
+[11.100658] (-) TimerEvent: {}
+[11.201562] (-) TimerEvent: {}
+[11.302391] (-) TimerEvent: {}
+[11.403326] (-) TimerEvent: {}
+[11.504116] (-) TimerEvent: {}
+[11.604931] (-) TimerEvent: {}
+[11.705805] (-) TimerEvent: {}
+[11.806701] (-) TimerEvent: {}
+[11.907604] (-) TimerEvent: {}
+[12.008474] (-) TimerEvent: {}
+[12.109278] (-) TimerEvent: {}
+[12.210148] (-) TimerEvent: {}
+[12.311157] (-) TimerEvent: {}
+[12.411967] (-) TimerEvent: {}
+[12.512763] (-) TimerEvent: {}
+[12.613599] (-) TimerEvent: {}
+[12.714408] (-) TimerEvent: {}
+[12.815297] (-) TimerEvent: {}
+[12.916145] (-) TimerEvent: {}
+[13.016997] (-) TimerEvent: {}
+[13.117875] (-) TimerEvent: {}
+[13.218946] (-) TimerEvent: {}
+[13.319736] (-) TimerEvent: {}
+[13.420611] (-) TimerEvent: {}
+[13.521591] (-) TimerEvent: {}
+[13.622752] (-) TimerEvent: {}
+[13.723781] (-) TimerEvent: {}
+[13.825095] (-) TimerEvent: {}
+[13.926086] (-) TimerEvent: {}
+[14.026982] (-) TimerEvent: {}
+[14.127827] (-) TimerEvent: {}
+[14.228669] (-) TimerEvent: {}
+[14.329565] (-) TimerEvent: {}
+[14.430456] (-) TimerEvent: {}
+[14.531286] (-) TimerEvent: {}
+[14.632056] (-) TimerEvent: {}
+[14.732885] (-) TimerEvent: {}
+[14.833719] (-) TimerEvent: {}
+[14.934524] (-) TimerEvent: {}
+[15.035341] (-) TimerEvent: {}
+[15.136110] (-) TimerEvent: {}
+[15.236915] (-) TimerEvent: {}
+[15.337819] (-) TimerEvent: {}
+[15.438672] (-) TimerEvent: {}
+[15.539555] (-) TimerEvent: {}
+[15.640395] (-) TimerEvent: {}
+[15.741240] (-) TimerEvent: {}
+[15.842099] (-) TimerEvent: {}
+[15.943028] (-) TimerEvent: {}
+[16.043851] (-) TimerEvent: {}
+[16.144648] (-) TimerEvent: {}
+[16.245439] (-) TimerEvent: {}
+[16.346254] (-) TimerEvent: {}
+[16.447053] (-) TimerEvent: {}
+[16.547843] (-) TimerEvent: {}
+[16.648629] (-) TimerEvent: {}
+[16.749463] (-) TimerEvent: {}
+[16.850288] (-) TimerEvent: {}
+[16.951150] (-) TimerEvent: {}
+[17.051941] (-) TimerEvent: {}
+[17.153410] (-) TimerEvent: {}
+[17.254247] (-) TimerEvent: {}
+[17.355157] (-) TimerEvent: {}
+[17.456091] (-) TimerEvent: {}
+[17.556846] (-) TimerEvent: {}
+[17.657722] (-) TimerEvent: {}
+[17.758515] (-) TimerEvent: {}
+[17.859402] (-) TimerEvent: {}
+[17.960202] (-) TimerEvent: {}
+[18.061069] (-) TimerEvent: {}
+[18.162045] (-) TimerEvent: {}
+[18.263101] (-) TimerEvent: {}
+[18.315218] (controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller\x1b[0m\n'}
+[18.363261] (-) TimerEvent: {}
+[18.464135] (-) TimerEvent: {}
+[18.565217] (-) TimerEvent: {}
+[18.666722] (-) TimerEvent: {}
+[18.767840] (-) TimerEvent: {}
+[18.869046] (-) TimerEvent: {}
+[18.970002] (-) TimerEvent: {}
+[19.070923] (-) TimerEvent: {}
+[19.172045] (-) TimerEvent: {}
+[19.245410] (controller) StdoutLine: {'line': b'[100%] Built target controller\n'}
+[19.272276] (-) TimerEvent: {}
+[19.285612] (controller) CommandEnded: {'returncode': 0}
+[19.372481] (-) TimerEvent: {}
+[19.402278] (controller) JobProgress: {'identifier': 'controller', 'progress': 'install'}
+[19.439066] (controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/moses/marp/build/controller'], 'cwd': '/home/moses/marp/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'moses'), ('SSH_CLIENT', '192.168.4.101 43027 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/moses'), ('OLDPWD', '/home/moses/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-096d1b1c-ba99-40cd-bf38-45f69677cebc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'moses'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a1973280a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/moses/marp/build/controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.4.101 43027 192.168.4.225 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.464588] (controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.465960] (controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/controller/lib/controller/controller\n'}
+[19.472710] (-) TimerEvent: {}
+[19.477171] (controller) StdoutLine: {'line': b'-- Set runtime path of "/home/moses/marp/install/controller/lib/controller/controller" to ""\n'}
+[19.478202] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/controller/share/ament_index/resource_index/package_run_dependencies/controller\n'}
+[19.479420] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/controller/share/ament_index/resource_index/parent_prefix_path/controller\n'}
+[19.480586] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/controller/share/controller/environment/ament_prefix_path.sh\n'}
+[19.481611] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/controller/share/controller/environment/ament_prefix_path.dsv\n'}
+[19.482603] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/controller/share/controller/environment/path.sh\n'}
+[19.483306] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/controller/share/controller/environment/path.dsv\n'}
+[19.483874] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/controller/share/controller/local_setup.bash\n'}
+[19.484907] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/controller/share/controller/local_setup.sh\n'}
+[19.485590] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/controller/share/controller/local_setup.zsh\n'}
+[19.486211] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/controller/share/controller/local_setup.dsv\n'}
+[19.486952] (controller) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/controller/share/controller/package.dsv\n'}
+[19.487761] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/controller/share/ament_index/resource_index/packages/controller\n'}
+[19.488631] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/controller/share/controller/cmake/controllerConfig.cmake\n'}
+[19.489207] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/controller/share/controller/cmake/controllerConfig-version.cmake\n'}
+[19.489607] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/controller/share/controller/package.xml\n'}
+[19.500726] (controller) CommandEnded: {'returncode': 0}
+[19.572928] (-) TimerEvent: {}
+[19.674028] (-) TimerEvent: {}
+[19.743320] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[19.748552] (-) EventReactorShutdown: {}

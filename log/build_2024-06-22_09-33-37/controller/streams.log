@@ -1,0 +1,35 @@
+[0.056s] Invoking command in '/home/moses/marp/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.317s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[3.342s] In file included from [01m[K/home/moses/marp/src/controller/src/controller.cpp:7[m[K:
+[3.343s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)[m[K’:
+[3.343s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:576:21:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[3.344s]   576 |         if ([01;35m[KcharRead<0[m[K) return charRead;
+[3.345s]       |             [01;35m[K~~~~~~~~^~[m[K
+[3.345s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readString(char*, char, unsigned int, unsigned int)[m[K’:
+[3.346s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:639:25:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[3.347s]   639 |             if ([01;35m[KcharRead<0[m[K) return charRead;
+[3.347s]       |                 [01;35m[K~~~~~~~~^~[m[K
+[18.231s] [100%] [32m[1mLinking CXX executable controller[0m
+[19.145s] [100%] Built target controller
+[19.185s] Invoked command in '/home/moses/marp/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4
+[19.355s] Invoking command in '/home/moses/marp/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/controller
+[19.383s] -- Install configuration: ""
+[19.389s] -- Installing: /home/moses/marp/install/controller/lib/controller/controller
+[19.394s] -- Set runtime path of "/home/moses/marp/install/controller/lib/controller/controller" to ""
+[19.396s] -- Up-to-date: /home/moses/marp/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[19.401s] -- Up-to-date: /home/moses/marp/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[19.402s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/environment/ament_prefix_path.sh
+[19.403s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/environment/ament_prefix_path.dsv
+[19.403s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/environment/path.sh
+[19.404s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/environment/path.dsv
+[19.405s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/local_setup.bash
+[19.414s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/local_setup.sh
+[19.415s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/local_setup.zsh
+[19.416s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/local_setup.dsv
+[19.417s] -- Installing: /home/moses/marp/install/controller/share/controller/package.dsv
+[19.418s] -- Up-to-date: /home/moses/marp/install/controller/share/ament_index/resource_index/packages/controller
+[19.419s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/cmake/controllerConfig.cmake
+[19.420s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[19.422s] -- Up-to-date: /home/moses/marp/install/controller/share/controller/package.xml
+[19.422s] Invoked command in '/home/moses/marp/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/controller

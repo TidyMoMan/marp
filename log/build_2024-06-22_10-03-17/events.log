@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.002129] (-) JobUnselected: {'identifier': 'dtc'}
+[0.002332] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002473] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.002596] (controller) JobStarted: {'identifier': 'controller'}
+[0.041759] (controller) JobProgress: {'identifier': 'controller', 'progress': 'cmake'}
+[0.045068] (controller) JobProgress: {'identifier': 'controller', 'progress': 'build'}
+[0.048338] (controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/moses/marp/build/controller', '--', '-j4', '-l4'], 'cwd': '/home/moses/marp/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'moses'), ('SSH_CLIENT', '192.168.4.101 14308 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/moses/marp/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/moses'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-497f9205-4366-4a0c-b01d-89f833db8384.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/moses/marp/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'moses'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a1973280a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/moses/marp/install/turtlesim:/home/moses/marp/install/dtc:/home/moses/marp/install/controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/moses/marp/build/controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.4.101 14308 192.168.4.225 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/moses/marp/install/turtlesim:/home/moses/marp/install/dtc:/home/moses/marp/install/controller:/opt/ros/humble')]), 'shell': False}
+[0.098055] (-) TimerEvent: {}
+[0.198803] (-) TimerEvent: {}
+[0.233046] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller\x1b[0m\n'}
+[0.298985] (-) TimerEvent: {}
+[0.328562] (controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o\x1b[0m\n'}
+[0.399195] (-) TimerEvent: {}
+[0.500058] (-) TimerEvent: {}
+[0.600940] (-) TimerEvent: {}
+[0.701840] (-) TimerEvent: {}
+[0.802790] (-) TimerEvent: {}
+[0.903672] (-) TimerEvent: {}
+[1.004382] (-) TimerEvent: {}
+[1.105141] (-) TimerEvent: {}
+[1.205974] (-) TimerEvent: {}
+[1.306910] (-) TimerEvent: {}
+[1.408396] (-) TimerEvent: {}
+[1.509769] (-) TimerEvent: {}
+[1.610642] (-) TimerEvent: {}
+[1.711410] (-) TimerEvent: {}
+[1.812164] (-) TimerEvent: {}
+[1.912899] (-) TimerEvent: {}
+[2.013754] (-) TimerEvent: {}
+[2.114562] (-) TimerEvent: {}
+[2.215427] (-) TimerEvent: {}
+[2.316345] (-) TimerEvent: {}
+[2.417584] (-) TimerEvent: {}
+[2.518428] (-) TimerEvent: {}
+[2.619235] (-) TimerEvent: {}
+[2.720029] (-) TimerEvent: {}
+[2.820840] (-) TimerEvent: {}
+[2.921703] (-) TimerEvent: {}
+[3.022679] (-) TimerEvent: {}
+[3.123779] (-) TimerEvent: {}
+[3.224646] (-) TimerEvent: {}
+[3.326039] (-) TimerEvent: {}
+[3.367444] (controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/controller/src/controller.cpp:7\x1b[m\x1b[K:\n'}
+[3.368325] (controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serialib/lib/serialib.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.368910] (controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serialib/lib/serialib.cpp:576:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison is always false due to limited range of data type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.369586] (controller) StderrLine: {'line': b'  576 |         if (\x1b[01;35m\x1b[KcharRead<0\x1b[m\x1b[K) return charRead;\n'}
+[3.370171] (controller) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.371759] (controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serialib/lib/serialib.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint serialib::readString(char*, char, unsigned int, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.372560] (controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serialib/lib/serialib.cpp:639:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison is always false due to limited range of data type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.373157] (controller) StderrLine: {'line': b'  639 |             if (\x1b[01;35m\x1b[KcharRead<0\x1b[m\x1b[K) return charRead;\n'}
+[3.373837] (controller) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.426285] (-) TimerEvent: {}
+[3.527262] (-) TimerEvent: {}
+[3.628281] (-) TimerEvent: {}
+[3.729203] (-) TimerEvent: {}
+[3.830276] (-) TimerEvent: {}
+[3.931297] (-) TimerEvent: {}
+[4.032263] (-) TimerEvent: {}
+[4.133176] (-) TimerEvent: {}
+[4.234541] (-) TimerEvent: {}
+[4.335530] (-) TimerEvent: {}
+[4.436641] (-) TimerEvent: {}
+[4.537663] (-) TimerEvent: {}
+[4.639536] (-) TimerEvent: {}
+[4.740634] (-) TimerEvent: {}
+[4.843187] (-) TimerEvent: {}
+[4.945511] (-) TimerEvent: {}
+[5.048093] (-) TimerEvent: {}
+[5.150386] (-) TimerEvent: {}
+[5.251231] (-) TimerEvent: {}
+[5.352161] (-) TimerEvent: {}
+[5.453002] (-) TimerEvent: {}
+[5.553933] (-) TimerEvent: {}
+[5.655451] (-) TimerEvent: {}
+[5.757016] (-) TimerEvent: {}
+[5.859763] (-) TimerEvent: {}
+[5.961238] (-) TimerEvent: {}
+[6.062137] (-) TimerEvent: {}
+[6.163037] (-) TimerEvent: {}
+[6.263882] (-) TimerEvent: {}
+[6.364760] (-) TimerEvent: {}
+[6.465566] (-) TimerEvent: {}
+[6.566352] (-) TimerEvent: {}
+[6.667175] (-) TimerEvent: {}
+[6.767976] (-) TimerEvent: {}
+[6.868804] (-) TimerEvent: {}
+[6.969648] (-) TimerEvent: {}
+[7.070471] (-) TimerEvent: {}
+[7.171309] (-) TimerEvent: {}
+[7.272309] (-) TimerEvent: {}
+[7.373148] (-) TimerEvent: {}
+[7.473984] (-) TimerEvent: {}
+[7.574778] (-) TimerEvent: {}
+[7.675654] (-) TimerEvent: {}
+[7.776485] (-) TimerEvent: {}
+[7.877407] (-) TimerEvent: {}
+[7.978217] (-) TimerEvent: {}
+[8.079056] (-) TimerEvent: {}
+[8.179869] (-) TimerEvent: {}
+[8.280823] (-) TimerEvent: {}
+[8.381709] (-) TimerEvent: {}
+[8.482521] (-) TimerEvent: {}
+[8.583355] (-) TimerEvent: {}
+[8.684257] (-) TimerEvent: {}
+[8.785083] (-) TimerEvent: {}
+[8.885981] (-) TimerEvent: {}
+[8.986785] (-) TimerEvent: {}
+[9.087618] (-) TimerEvent: {}
+[9.188458] (-) TimerEvent: {}
+[9.289340] (-) TimerEvent: {}
+[9.390330] (-) TimerEvent: {}
+[9.491234] (-) TimerEvent: {}
+[9.592151] (-) TimerEvent: {}
+[9.693176] (-) TimerEvent: {}
+[9.794411] (-) TimerEvent: {}
+[9.895260] (-) TimerEvent: {}
+[9.996091] (-) TimerEvent: {}
+[10.096923] (-) TimerEvent: {}
+[10.197772] (-) TimerEvent: {}
+[10.298598] (-) TimerEvent: {}
+[10.399501] (-) TimerEvent: {}
+[10.500426] (-) TimerEvent: {}
+[10.575100] (controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/controller/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.575778] (controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/controller/src/controller.cpp:39:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincompatible types in assignment of \xe2\x80\x98\x1b[01m\x1b[Kconst char [35]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar [32]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.576248] (controller) StderrLine: {'line': b'   39 |       \x1b[01;31m\x1b[Kbuffer = "                                  "\x1b[m\x1b[K;\n'}
+[10.576677] (controller) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.600624] (-) TimerEvent: {}
+[10.701437] (-) TimerEvent: {}
+[10.802261] (-) TimerEvent: {}
+[10.903097] (-) TimerEvent: {}
+[11.003915] (-) TimerEvent: {}
+[11.104823] (-) TimerEvent: {}
+[11.205673] (-) TimerEvent: {}
+[11.306483] (-) TimerEvent: {}
+[11.407269] (-) TimerEvent: {}
+[11.508087] (-) TimerEvent: {}
+[11.608902] (-) TimerEvent: {}
+[11.709736] (-) TimerEvent: {}
+[11.810557] (-) TimerEvent: {}
+[11.911354] (-) TimerEvent: {}
+[12.012153] (-) TimerEvent: {}
+[12.112969] (-) TimerEvent: {}
+[12.213787] (-) TimerEvent: {}
+[12.314584] (-) TimerEvent: {}
+[12.415485] (-) TimerEvent: {}
+[12.516354] (-) TimerEvent: {}
+[12.617184] (-) TimerEvent: {}
+[12.718057] (-) TimerEvent: {}
+[12.818868] (-) TimerEvent: {}
+[12.919702] (-) TimerEvent: {}
+[13.020568] (-) TimerEvent: {}
+[13.121497] (-) TimerEvent: {}
+[13.222934] (-) TimerEvent: {}
+[13.324637] (-) TimerEvent: {}
+[13.425470] (-) TimerEvent: {}
+[13.526305] (-) TimerEvent: {}
+[13.549342] (controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller.cpp.o] Error 1\n'}
+[13.550537] (controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controller.dir/all] Error 2\n'}
+[13.551514] (controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.557813] (controller) CommandEnded: {'returncode': 2}
+[13.626477] (-) TimerEvent: {}
+[13.727184] (-) TimerEvent: {}
+[13.749500] (controller) JobEnded: {'identifier': 'controller', 'rc': 2}
+[13.761978] (-) EventReactorShutdown: {}

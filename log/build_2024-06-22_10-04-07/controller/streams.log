@@ -1,0 +1,20 @@
+[0.063s] Invoking command in '/home/moses/marp/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4
+[0.233s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.329s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[3.410s] In file included from [01m[K/home/moses/marp/src/controller/src/controller.cpp:7[m[K:
+[3.411s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)[m[K’:
+[3.412s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:576:21:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[3.412s]   576 |         if ([01;35m[KcharRead<0[m[K) return charRead;
+[3.413s]       |             [01;35m[K~~~~~~~~^~[m[K
+[3.415s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readString(char*, char, unsigned int, unsigned int)[m[K’:
+[3.415s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:639:25:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[3.416s]   639 |             if ([01;35m[KcharRead<0[m[K) return charRead;
+[3.416s]       |                 [01;35m[K~~~~~~~~^~[m[K
+[10.679s] [01m[K/home/moses/marp/src/controller/src/controller.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[10.680s] [01m[K/home/moses/marp/src/controller/src/controller.cpp:39:14:[m[K [01;31m[Kerror: [m[Kincompatible types in assignment of ‘[01m[Kconst char [26][m[K’ to ‘[01m[Kchar [32][m[K’
+[10.680s]    39 |       [01;31m[Kbuffer = "                         "[m[K;
+[10.680s]       |       [01;31m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.695s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+[13.695s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controller.dir/all] Error 2
+[13.697s] gmake: *** [Makefile:146: all] Error 2
+[13.703s] Invoked command in '/home/moses/marp/build/controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/controller -- -j4 -l4

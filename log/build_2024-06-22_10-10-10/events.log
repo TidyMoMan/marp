@@ -1,0 +1,390 @@
+[0.000000] (-) TimerEvent: {}
+[0.001648] (-) JobUnselected: {'identifier': 'controller'}
+[0.002256] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002776] (dtc) JobQueued: {'identifier': 'dtc', 'dependencies': OrderedDict()}
+[0.002978] (dtc) JobStarted: {'identifier': 'dtc'}
+[0.038211] (dtc) JobProgress: {'identifier': 'dtc', 'progress': 'cmake'}
+[0.043389] (dtc) JobProgress: {'identifier': 'dtc', 'progress': 'build'}
+[0.047057] (dtc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/moses/marp/build/dtc', '--', '-j4', '-l4'], 'cwd': '/home/moses/marp/build/dtc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'moses'), ('SSH_CLIENT', '192.168.4.101 14308 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/moses/marp/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/moses'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-497f9205-4366-4a0c-b01d-89f833db8384.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/moses/marp/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'moses'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a1973280a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/moses/marp/install/turtlesim:/home/moses/marp/install/dtc:/home/moses/marp/install/controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/moses/marp/build/dtc'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.4.101 14308 192.168.4.225 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/moses/marp/install/turtlesim:/home/moses/marp/install/dtc:/home/moses/marp/install/controller:/opt/ros/humble')]), 'shell': False}
+[0.099044] (-) TimerEvent: {}
+[0.199908] (-) TimerEvent: {}
+[0.300843] (-) TimerEvent: {}
+[0.306215] (dtc) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o\x1b[0m\n'}
+[0.401065] (-) TimerEvent: {}
+[0.501801] (-) TimerEvent: {}
+[0.602736] (-) TimerEvent: {}
+[0.703774] (-) TimerEvent: {}
+[0.804463] (-) TimerEvent: {}
+[0.905175] (-) TimerEvent: {}
+[1.005906] (-) TimerEvent: {}
+[1.106692] (-) TimerEvent: {}
+[1.207555] (-) TimerEvent: {}
+[1.308615] (-) TimerEvent: {}
+[1.410271] (-) TimerEvent: {}
+[1.511201] (-) TimerEvent: {}
+[1.612580] (-) TimerEvent: {}
+[1.713347] (-) TimerEvent: {}
+[1.814074] (-) TimerEvent: {}
+[1.914869] (-) TimerEvent: {}
+[2.015742] (-) TimerEvent: {}
+[2.116649] (-) TimerEvent: {}
+[2.217425] (-) TimerEvent: {}
+[2.318273] (-) TimerEvent: {}
+[2.419335] (-) TimerEvent: {}
+[2.520213] (-) TimerEvent: {}
+[2.621090] (-) TimerEvent: {}
+[2.722000] (-) TimerEvent: {}
+[2.767155] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.767917] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serialib/lib/serialib.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.768639] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serialib/lib/serialib.cpp:576:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison is always false due to limited range of data type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.769064] (dtc) StderrLine: {'line': b'  576 |         if (\x1b[01;35m\x1b[KcharRead<0\x1b[m\x1b[K) return charRead;\n'}
+[2.769448] (dtc) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.769826] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serialib/lib/serialib.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint serialib::readString(char*, char, unsigned int, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.770204] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serialib/lib/serialib.cpp:639:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison is always false due to limited range of data type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.770665] (dtc) StderrLine: {'line': b'  639 |             if (\x1b[01;35m\x1b[KcharRead<0\x1b[m\x1b[K) return charRead;\n'}
+[2.771116] (dtc) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.822192] (-) TimerEvent: {}
+[2.923023] (-) TimerEvent: {}
+[3.023861] (-) TimerEvent: {}
+[3.124793] (-) TimerEvent: {}
+[3.225677] (-) TimerEvent: {}
+[3.326580] (-) TimerEvent: {}
+[3.427376] (-) TimerEvent: {}
+[3.528277] (-) TimerEvent: {}
+[3.629273] (-) TimerEvent: {}
+[3.730311] (-) TimerEvent: {}
+[3.831326] (-) TimerEvent: {}
+[3.932691] (-) TimerEvent: {}
+[4.033900] (-) TimerEvent: {}
+[4.134820] (-) TimerEvent: {}
+[4.235880] (-) TimerEvent: {}
+[4.337220] (-) TimerEvent: {}
+[4.438348] (-) TimerEvent: {}
+[4.539373] (-) TimerEvent: {}
+[4.640502] (-) TimerEvent: {}
+[4.741644] (-) TimerEvent: {}
+[4.842809] (-) TimerEvent: {}
+[4.943771] (-) TimerEvent: {}
+[5.044690] (-) TimerEvent: {}
+[5.145665] (-) TimerEvent: {}
+[5.246729] (-) TimerEvent: {}
+[5.348105] (-) TimerEvent: {}
+[5.449860] (-) TimerEvent: {}
+[5.550700] (-) TimerEvent: {}
+[5.651510] (-) TimerEvent: {}
+[5.752362] (-) TimerEvent: {}
+[5.853330] (-) TimerEvent: {}
+[5.954242] (-) TimerEvent: {}
+[6.055202] (-) TimerEvent: {}
+[6.157169] (-) TimerEvent: {}
+[6.259440] (-) TimerEvent: {}
+[6.361611] (-) TimerEvent: {}
+[6.462757] (-) TimerEvent: {}
+[6.563678] (-) TimerEvent: {}
+[6.664535] (-) TimerEvent: {}
+[6.765382] (-) TimerEvent: {}
+[6.866211] (-) TimerEvent: {}
+[6.967030] (-) TimerEvent: {}
+[7.067827] (-) TimerEvent: {}
+[7.168608] (-) TimerEvent: {}
+[7.269421] (-) TimerEvent: {}
+[7.370339] (-) TimerEvent: {}
+[7.471778] (-) TimerEvent: {}
+[7.572581] (-) TimerEvent: {}
+[7.673381] (-) TimerEvent: {}
+[7.774218] (-) TimerEvent: {}
+[7.875099] (-) TimerEvent: {}
+[7.975925] (-) TimerEvent: {}
+[8.076727] (-) TimerEvent: {}
+[8.177570] (-) TimerEvent: {}
+[8.278408] (-) TimerEvent: {}
+[8.379255] (-) TimerEvent: {}
+[8.480066] (-) TimerEvent: {}
+[8.580921] (-) TimerEvent: {}
+[8.681785] (-) TimerEvent: {}
+[8.782718] (-) TimerEvent: {}
+[8.883501] (-) TimerEvent: {}
+[8.984314] (-) TimerEvent: {}
+[9.085132] (-) TimerEvent: {}
+[9.185956] (-) TimerEvent: {}
+[9.286799] (-) TimerEvent: {}
+[9.387629] (-) TimerEvent: {}
+[9.488479] (-) TimerEvent: {}
+[9.589421] (-) TimerEvent: {}
+[9.690266] (-) TimerEvent: {}
+[9.791109] (-) TimerEvent: {}
+[9.892067] (-) TimerEvent: {}
+[9.992905] (-) TimerEvent: {}
+[10.093718] (-) TimerEvent: {}
+[10.194558] (-) TimerEvent: {}
+[10.295366] (-) TimerEvent: {}
+[10.396182] (-) TimerEvent: {}
+[10.497023] (-) TimerEvent: {}
+[10.597835] (-) TimerEvent: {}
+[10.698676] (-) TimerEvent: {}
+[10.799524] (-) TimerEvent: {}
+[10.900367] (-) TimerEvent: {}
+[11.001253] (-) TimerEvent: {}
+[11.102138] (-) TimerEvent: {}
+[11.202988] (-) TimerEvent: {}
+[11.303845] (-) TimerEvent: {}
+[11.405461] (-) TimerEvent: {}
+[11.506370] (-) TimerEvent: {}
+[11.607255] (-) TimerEvent: {}
+[11.708130] (-) TimerEvent: {}
+[11.808999] (-) TimerEvent: {}
+[11.909795] (-) TimerEvent: {}
+[12.010675] (-) TimerEvent: {}
+[12.111488] (-) TimerEvent: {}
+[12.212303] (-) TimerEvent: {}
+[12.313148] (-) TimerEvent: {}
+[12.413999] (-) TimerEvent: {}
+[12.514849] (-) TimerEvent: {}
+[12.615705] (-) TimerEvent: {}
+[12.716576] (-) TimerEvent: {}
+[12.817377] (-) TimerEvent: {}
+[12.918274] (-) TimerEvent: {}
+[13.019120] (-) TimerEvent: {}
+[13.120017] (-) TimerEvent: {}
+[13.220921] (-) TimerEvent: {}
+[13.321790] (-) TimerEvent: {}
+[13.422685] (-) TimerEvent: {}
+[13.523505] (-) TimerEvent: {}
+[13.624305] (-) TimerEvent: {}
+[13.725150] (-) TimerEvent: {}
+[13.826026] (-) TimerEvent: {}
+[13.926866] (-) TimerEvent: {}
+[14.027640] (-) TimerEvent: {}
+[14.128462] (-) TimerEvent: {}
+[14.229253] (-) TimerEvent: {}
+[14.330068] (-) TimerEvent: {}
+[14.430948] (-) TimerEvent: {}
+[14.531788] (-) TimerEvent: {}
+[14.632592] (-) TimerEvent: {}
+[14.733364] (-) TimerEvent: {}
+[14.834253] (-) TimerEvent: {}
+[14.935520] (-) TimerEvent: {}
+[15.036320] (-) TimerEvent: {}
+[15.137168] (-) TimerEvent: {}
+[15.237957] (-) TimerEvent: {}
+[15.338808] (-) TimerEvent: {}
+[15.439624] (-) TimerEvent: {}
+[15.540439] (-) TimerEvent: {}
+[15.641337] (-) TimerEvent: {}
+[15.742263] (-) TimerEvent: {}
+[15.843193] (-) TimerEvent: {}
+[15.944030] (-) TimerEvent: {}
+[16.044846] (-) TimerEvent: {}
+[16.145774] (-) TimerEvent: {}
+[16.246719] (-) TimerEvent: {}
+[16.347625] (-) TimerEvent: {}
+[16.448537] (-) TimerEvent: {}
+[16.549414] (-) TimerEvent: {}
+[16.650297] (-) TimerEvent: {}
+[16.751149] (-) TimerEvent: {}
+[16.852009] (-) TimerEvent: {}
+[16.952915] (-) TimerEvent: {}
+[17.053773] (-) TimerEvent: {}
+[17.154610] (-) TimerEvent: {}
+[17.255418] (-) TimerEvent: {}
+[17.356308] (-) TimerEvent: {}
+[17.457457] (-) TimerEvent: {}
+[17.558291] (-) TimerEvent: {}
+[17.659138] (-) TimerEvent: {}
+[17.759961] (-) TimerEvent: {}
+[17.860776] (-) TimerEvent: {}
+[17.961616] (-) TimerEvent: {}
+[18.062475] (-) TimerEvent: {}
+[18.163263] (-) TimerEvent: {}
+[18.264036] (-) TimerEvent: {}
+[18.364907] (-) TimerEvent: {}
+[18.465787] (-) TimerEvent: {}
+[18.566684] (-) TimerEvent: {}
+[18.667493] (-) TimerEvent: {}
+[18.768312] (-) TimerEvent: {}
+[18.869199] (-) TimerEvent: {}
+[18.970237] (-) TimerEvent: {}
+[19.071568] (-) TimerEvent: {}
+[19.173034] (-) TimerEvent: {}
+[19.273898] (-) TimerEvent: {}
+[19.374839] (-) TimerEvent: {}
+[19.476295] (-) TimerEvent: {}
+[19.577182] (-) TimerEvent: {}
+[19.678345] (-) TimerEvent: {}
+[19.780528] (-) TimerEvent: {}
+[19.882365] (-) TimerEvent: {}
+[19.983574] (-) TimerEvent: {}
+[20.084459] (-) TimerEvent: {}
+[20.185351] (-) TimerEvent: {}
+[20.286281] (-) TimerEvent: {}
+[20.387097] (-) TimerEvent: {}
+[20.487954] (-) TimerEvent: {}
+[20.588775] (-) TimerEvent: {}
+[20.689669] (-) TimerEvent: {}
+[20.790468] (-) TimerEvent: {}
+[20.891306] (-) TimerEvent: {}
+[20.992122] (-) TimerEvent: {}
+[21.093006] (-) TimerEvent: {}
+[21.193878] (-) TimerEvent: {}
+[21.294712] (-) TimerEvent: {}
+[21.395605] (-) TimerEvent: {}
+[21.496494] (-) TimerEvent: {}
+[21.597318] (-) TimerEvent: {}
+[21.698122] (-) TimerEvent: {}
+[21.798974] (-) TimerEvent: {}
+[21.899751] (-) TimerEvent: {}
+[22.000578] (-) TimerEvent: {}
+[22.101371] (-) TimerEvent: {}
+[22.202228] (-) TimerEvent: {}
+[22.303122] (-) TimerEvent: {}
+[22.403967] (-) TimerEvent: {}
+[22.504789] (-) TimerEvent: {}
+[22.605641] (-) TimerEvent: {}
+[22.706490] (-) TimerEvent: {}
+[22.807334] (-) TimerEvent: {}
+[22.908126] (-) TimerEvent: {}
+[23.008906] (-) TimerEvent: {}
+[23.109727] (-) TimerEvent: {}
+[23.210593] (-) TimerEvent: {}
+[23.311430] (-) TimerEvent: {}
+[23.412296] (-) TimerEvent: {}
+[23.513132] (-) TimerEvent: {}
+[23.613966] (-) TimerEvent: {}
+[23.714880] (-) TimerEvent: {}
+[23.815729] (-) TimerEvent: {}
+[23.916550] (-) TimerEvent: {}
+[24.017416] (-) TimerEvent: {}
+[24.118281] (-) TimerEvent: {}
+[24.219134] (-) TimerEvent: {}
+[24.319940] (-) TimerEvent: {}
+[24.420726] (-) TimerEvent: {}
+[24.521579] (-) TimerEvent: {}
+[24.622390] (-) TimerEvent: {}
+[24.723180] (-) TimerEvent: {}
+[24.823980] (-) TimerEvent: {}
+[24.924791] (-) TimerEvent: {}
+[25.025644] (-) TimerEvent: {}
+[25.126443] (-) TimerEvent: {}
+[25.227283] (-) TimerEvent: {}
+[25.328092] (-) TimerEvent: {}
+[25.428908] (-) TimerEvent: {}
+[25.529676] (-) TimerEvent: {}
+[25.630472] (-) TimerEvent: {}
+[25.731300] (-) TimerEvent: {}
+[25.832134] (-) TimerEvent: {}
+[25.933000] (-) TimerEvent: {}
+[26.033798] (-) TimerEvent: {}
+[26.134641] (-) TimerEvent: {}
+[26.235594] (-) TimerEvent: {}
+[26.336486] (-) TimerEvent: {}
+[26.437977] (-) TimerEvent: {}
+[26.538860] (-) TimerEvent: {}
+[26.639732] (-) TimerEvent: {}
+[26.740601] (-) TimerEvent: {}
+[26.841963] (-) TimerEvent: {}
+[26.942879] (-) TimerEvent: {}
+[27.043709] (-) TimerEvent: {}
+[27.144482] (-) TimerEvent: {}
+[27.245280] (-) TimerEvent: {}
+[27.346174] (-) TimerEvent: {}
+[27.447216] (-) TimerEvent: {}
+[27.548017] (-) TimerEvent: {}
+[27.648819] (-) TimerEvent: {}
+[27.749595] (-) TimerEvent: {}
+[27.850372] (-) TimerEvent: {}
+[27.951268] (-) TimerEvent: {}
+[28.052059] (-) TimerEvent: {}
+[28.152876] (-) TimerEvent: {}
+[28.253685] (-) TimerEvent: {}
+[28.354499] (-) TimerEvent: {}
+[28.455343] (-) TimerEvent: {}
+[28.556160] (-) TimerEvent: {}
+[28.657044] (-) TimerEvent: {}
+[28.757915] (-) TimerEvent: {}
+[28.858746] (-) TimerEvent: {}
+[28.959536] (-) TimerEvent: {}
+[29.060313] (-) TimerEvent: {}
+[29.161110] (-) TimerEvent: {}
+[29.261991] (-) TimerEvent: {}
+[29.362794] (-) TimerEvent: {}
+[29.463597] (-) TimerEvent: {}
+[29.564442] (-) TimerEvent: {}
+[29.665296] (-) TimerEvent: {}
+[29.766104] (-) TimerEvent: {}
+[29.866905] (-) TimerEvent: {}
+[29.967686] (-) TimerEvent: {}
+[30.068810] (-) TimerEvent: {}
+[30.169965] (-) TimerEvent: {}
+[30.270932] (-) TimerEvent: {}
+[30.371718] (-) TimerEvent: {}
+[30.472501] (-) TimerEvent: {}
+[30.573308] (-) TimerEvent: {}
+[30.674111] (-) TimerEvent: {}
+[30.774984] (-) TimerEvent: {}
+[30.875768] (-) TimerEvent: {}
+[30.976611] (-) TimerEvent: {}
+[31.077406] (-) TimerEvent: {}
+[31.178205] (-) TimerEvent: {}
+[31.279013] (-) TimerEvent: {}
+[31.380710] (-) TimerEvent: {}
+[31.481555] (-) TimerEvent: {}
+[31.582344] (-) TimerEvent: {}
+[31.683155] (-) TimerEvent: {}
+[31.783933] (-) TimerEvent: {}
+[31.884718] (-) TimerEvent: {}
+[31.985703] (-) TimerEvent: {}
+[32.087237] (-) TimerEvent: {}
+[32.188253] (-) TimerEvent: {}
+[32.289186] (-) TimerEvent: {}
+[32.390201] (-) TimerEvent: {}
+[32.491221] (-) TimerEvent: {}
+[32.592046] (-) TimerEvent: {}
+[32.692959] (-) TimerEvent: {}
+[32.699285] (dtc) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable dtc\x1b[0m\n'}
+[32.793359] (-) TimerEvent: {}
+[32.894713] (-) TimerEvent: {}
+[32.996422] (-) TimerEvent: {}
+[33.098413] (-) TimerEvent: {}
+[33.199714] (-) TimerEvent: {}
+[33.300902] (-) TimerEvent: {}
+[33.402016] (-) TimerEvent: {}
+[33.503825] (-) TimerEvent: {}
+[33.605009] (-) TimerEvent: {}
+[33.706184] (-) TimerEvent: {}
+[33.807513] (-) TimerEvent: {}
+[33.908344] (-) TimerEvent: {}
+[34.009150] (-) TimerEvent: {}
+[34.109991] (-) TimerEvent: {}
+[34.210987] (-) TimerEvent: {}
+[34.311706] (-) TimerEvent: {}
+[34.412666] (-) TimerEvent: {}
+[34.437676] (dtc) StdoutLine: {'line': b'[100%] Built target dtc\n'}
+[34.474319] (dtc) CommandEnded: {'returncode': 0}
+[34.512859] (-) TimerEvent: {}
+[34.613400] (dtc) JobProgress: {'identifier': 'dtc', 'progress': 'install'}
+[34.613782] (-) TimerEvent: {}
+[34.652622] (dtc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/moses/marp/build/dtc'], 'cwd': '/home/moses/marp/build/dtc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'moses'), ('SSH_CLIENT', '192.168.4.101 14308 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/moses/marp/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/moses'), ('TERM_PROGRAM_VERSION', '1.90.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-497f9205-4366-4a0c-b01d-89f833db8384.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/moses/marp/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'moses'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/moses/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a1973280a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/moses/marp/install/turtlesim:/home/moses/marp/install/dtc:/home/moses/marp/install/controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/moses/marp/build/dtc'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.4.101 14308 192.168.4.225 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/moses/marp/install/turtlesim:/home/moses/marp/install/dtc:/home/moses/marp/install/controller:/opt/ros/humble')]), 'shell': False}
+[34.680752] (dtc) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.681953] (dtc) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dtc/lib/dtc/dtc\n'}
+[34.710414] (dtc) StdoutLine: {'line': b'-- Set runtime path of "/home/moses/marp/install/dtc/lib/dtc/dtc" to ""\n'}
+[34.711236] (dtc) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/package_run_dependencies/dtc\n'}
+[34.711767] (dtc) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/parent_prefix_path/dtc\n'}
+[34.712292] (dtc) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/ament_prefix_path.sh\n'}
+[34.712785] (dtc) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/ament_prefix_path.dsv\n'}
+[34.713232] (dtc) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/path.sh\n'}
+[34.713737] (dtc) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/path.dsv\n'}
+[34.714141] (-) TimerEvent: {}
+[34.714563] (dtc) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.bash\n'}
+[34.715087] (dtc) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.sh\n'}
+[34.715454] (dtc) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.zsh\n'}
+[34.715791] (dtc) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.dsv\n'}
+[34.716332] (dtc) StdoutLine: {'line': b'-- Installing: /home/moses/marp/install/dtc/share/dtc/package.dsv\n'}
+[34.716812] (dtc) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/packages/dtc\n'}
+[34.717211] (dtc) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/cmake/dtcConfig.cmake\n'}
+[34.717612] (dtc) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/cmake/dtcConfig-version.cmake\n'}
+[34.717997] (dtc) StdoutLine: {'line': b'-- Up-to-date: /home/moses/marp/install/dtc/share/dtc/package.xml\n'}
+[34.723018] (dtc) CommandEnded: {'returncode': 0}
+[34.814392] (-) TimerEvent: {}
+[34.916895] (-) TimerEvent: {}
+[34.970106] (dtc) JobEnded: {'identifier': 'dtc', 'rc': 0}
+[34.974502] (-) EventReactorShutdown: {}
