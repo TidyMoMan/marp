@@ -11,7 +11,7 @@
 #include "std_msgs/msg/string.hpp"
 
 //define serial port
-#define SERIAL_PORT "/dev/ttyACM0"
+#define SERIAL_PORT "/dev/tty0"
 serialib serial;
 
 
