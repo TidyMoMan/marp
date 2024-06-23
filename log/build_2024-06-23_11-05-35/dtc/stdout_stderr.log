@@ -1,0 +1,247 @@
+[35m[1mConsolidate compiler generated dependencies of target dtc[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o[0m
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)[m[K’:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:576:21:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  576 |         if ([01;35m[KcharRead<0[m[K) return charRead;
+      |             [01;35m[K~~~~~~~~^~[m[K
+[01m[K/home/moses/marp/src/serial/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readString(char*, char, unsigned int, unsigned int)[m[K’:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:639:25:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  639 |             if ([01;35m[KcharRead<0[m[K) return charRead;
+      |                 [01;35m[K~~~~~~~~^~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:[m[K At global scope:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:29:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kserialib::serialib()[m[K’
+   29 | [01;31m[Kserialib[m[K::serialib()
+      | [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:29:1:[m[K [01;36m[Knote: [m[K‘[01m[Kserialib::serialib()[m[K’ previously defined here
+   29 | [01;36m[Kserialib[m[K::serialib()
+      | [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:47:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kserialib::~serialib()[m[K’
+   47 | [01;31m[Kserialib[m[K::~serialib()
+      | [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:47:1:[m[K [01;36m[Knote: [m[K‘[01m[Kserialib::~serialib()[m[K’ previously defined here
+   47 | [01;36m[Kserialib[m[K::~serialib()
+      | [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:144:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kchar serialib::openDevice(const char*, unsigned int, SerialDataBits, SerialParity, SerialStopBits)[m[K’
+  144 | char [01;31m[Kserialib[m[K::openDevice(const char *Device, const unsigned int Bauds,
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:144:6:[m[K [01;36m[Knote: [m[K‘[01m[Kchar serialib::openDevice(const char*, unsigned int, SerialDataBits, SerialParity, SerialStopBits)[m[K’ previously defined here
+  144 | char [01;36m[Kserialib[m[K::openDevice(const char *Device, const unsigned int Bauds,
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:358:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool serialib::isDeviceOpen()[m[K’
+  358 | bool [01;31m[Kserialib[m[K::isDeviceOpen()
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:358:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool serialib::isDeviceOpen()[m[K’ previously defined here
+  358 | bool [01;36m[Kserialib[m[K::isDeviceOpen()
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:371:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid serialib::closeDevice()[m[K’
+  371 | void [01;31m[Kserialib[m[K::closeDevice()
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:371:6:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid serialib::closeDevice()[m[K’ previously defined here
+  371 | void [01;36m[Kserialib[m[K::closeDevice()
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:397:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint serialib::writeChar(char)[m[K’
+  397 | int [01;31m[Kserialib[m[K::writeChar(const char Byte)
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:397:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint serialib::writeChar(char)[m[K’ previously defined here
+  397 | int [01;36m[Kserialib[m[K::writeChar(const char Byte)
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:429:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint serialib::writeString(const char*)[m[K’
+  429 | int [01;31m[Kserialib[m[K::writeString(const char *receivedString)
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:429:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint serialib::writeString(const char*)[m[K’ previously defined here
+  429 | int [01;36m[Kserialib[m[K::writeString(const char *receivedString)
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:463:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint serialib::writeBytes(const void*, unsigned int)[m[K’
+  463 | int [01;31m[Kserialib[m[K::writeBytes(const void *Buffer, const unsigned int NbBytes)
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:463:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint serialib::writeBytes(const void*, unsigned int)[m[K’ previously defined here
+  463 | int [01;36m[Kserialib[m[K::writeBytes(const void *Buffer, const unsigned int NbBytes)
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:495:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint serialib::readChar(char*, unsigned int)[m[K’
+  495 | int [01;31m[Kserialib[m[K::readChar(char *pByte,unsigned int timeOut_ms)
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:495:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint serialib::readChar(char*, unsigned int)[m[K’ previously defined here
+  495 | int [01;36m[Kserialib[m[K::readChar(char *pByte,unsigned int timeOut_ms)
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:546:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)[m[K’
+  546 | int [01;31m[Kserialib[m[K::readStringNoTimeOut(char *receivedString,char finalChar,unsigned int maxNbBytes)
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:546:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)[m[K’ previously defined here
+  546 | int [01;36m[Kserialib[m[K::readStringNoTimeOut(char *receivedString,char finalChar,unsigned int maxNbBytes)
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:595:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint serialib::readString(char*, char, unsigned int, unsigned int)[m[K’
+  595 | int [01;31m[Kserialib[m[K::readString(char *receivedString,char finalChar,unsigned int maxNbBytes,unsigned int timeOut_ms)
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:595:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint serialib::readString(char*, char, unsigned int, unsigned int)[m[K’ previously defined here
+  595 | int [01;36m[Kserialib[m[K::readString(char *receivedString,char finalChar,unsigned int maxNbBytes,unsigned int timeOut_ms)
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:669:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint serialib::readBytes(void*, unsigned int, unsigned int, unsigned int)[m[K’
+  669 | int [01;31m[Kserialib[m[K::readBytes (void *buffer,unsigned int maxNbBytes,unsigned int timeOut_ms, unsigned int sleepDuration_us)
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:669:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint serialib::readBytes(void*, unsigned int, unsigned int, unsigned int)[m[K’ previously defined here
+  669 | int [01;36m[Kserialib[m[K::readBytes (void *buffer,unsigned int maxNbBytes,unsigned int timeOut_ms, unsigned int sleepDuration_us)
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:738:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kchar serialib::flushReceiver()[m[K’
+  738 | char [01;31m[Kserialib[m[K::flushReceiver()
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:738:6:[m[K [01;36m[Knote: [m[K‘[01m[Kchar serialib::flushReceiver()[m[K’ previously defined here
+  738 | char [01;36m[Kserialib[m[K::flushReceiver()
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:757:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint serialib::available()[m[K’
+  757 | int [01;31m[Kserialib[m[K::available()
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:757:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint serialib::available()[m[K’ previously defined here
+  757 | int [01;36m[Kserialib[m[K::available()
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:792:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool serialib::DTR(bool)[m[K’
+  792 | bool [01;31m[Kserialib[m[K::DTR(bool status)
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:792:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool serialib::DTR(bool)[m[K’ previously defined here
+  792 | bool [01;36m[Kserialib[m[K::DTR(bool status)
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:809:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool serialib::setDTR()[m[K’
+  809 | bool [01;31m[Kserialib[m[K::setDTR()
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:809:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool serialib::setDTR()[m[K’ previously defined here
+  809 | bool [01;36m[Kserialib[m[K::setDTR()
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:832:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool serialib::clearDTR()[m[K’
+  832 | bool [01;31m[Kserialib[m[K::clearDTR()
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:832:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool serialib::clearDTR()[m[K’ previously defined here
+  832 | bool [01;36m[Kserialib[m[K::clearDTR()
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:860:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool serialib::RTS(bool)[m[K’
+  860 | bool [01;31m[Kserialib[m[K::RTS(bool status)
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:860:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool serialib::RTS(bool)[m[K’ previously defined here
+  860 | bool [01;36m[Kserialib[m[K::RTS(bool status)
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:877:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool serialib::setRTS()[m[K’
+  877 | bool [01;31m[Kserialib[m[K::setRTS()
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:877:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool serialib::setRTS()[m[K’ previously defined here
+  877 | bool [01;36m[Kserialib[m[K::setRTS()
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:902:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool serialib::clearRTS()[m[K’
+  902 | bool [01;31m[Kserialib[m[K::clearRTS()
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:902:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool serialib::clearRTS()[m[K’ previously defined here
+  902 | bool [01;36m[Kserialib[m[K::clearRTS()
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:927:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool serialib::isCTS()[m[K’
+  927 | bool [01;31m[Kserialib[m[K::isCTS()
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:927:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool serialib::isCTS()[m[K’ previously defined here
+  927 | bool [01;36m[Kserialib[m[K::isCTS()
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:949:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool serialib::isDSR()[m[K’
+  949 | bool [01;31m[Kserialib[m[K::isDSR()
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:949:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool serialib::isDSR()[m[K’ previously defined here
+  949 | bool [01;36m[Kserialib[m[K::isDSR()
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:975:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool serialib::isDCD()[m[K’
+  975 | bool [01;31m[Kserialib[m[K::isDCD()
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:975:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool serialib::isDCD()[m[K’ previously defined here
+  975 | bool [01;36m[Kserialib[m[K::isDCD()
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:996:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool serialib::isRI()[m[K’
+  996 | bool [01;31m[Kserialib[m[K::isRI()
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:996:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool serialib::isRI()[m[K’ previously defined here
+  996 | bool [01;36m[Kserialib[m[K::isRI()
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:1018:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool serialib::isDTR()[m[K’
+ 1018 | bool [01;31m[Kserialib[m[K::isDTR()
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:1018:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool serialib::isDTR()[m[K’ previously defined here
+ 1018 | bool [01;36m[Kserialib[m[K::isDTR()
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:1039:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kbool serialib::isRTS()[m[K’
+ 1039 | bool [01;31m[Kserialib[m[K::isRTS()
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:1039:6:[m[K [01;36m[Knote: [m[K‘[01m[Kbool serialib::isRTS()[m[K’ previously defined here
+ 1039 | bool [01;36m[Kserialib[m[K::isRTS()
+      |      [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:1066:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KtimeOut::timeOut()[m[K’
+ 1066 | [01;31m[KtimeOut[m[K::timeOut()
+      | [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:1066:1:[m[K [01;36m[Knote: [m[K‘[01m[KtimeOut::timeOut()[m[K’ previously defined here
+ 1066 | [01;36m[KtimeOut[m[K::timeOut()
+      | [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:1074:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid timeOut::initTimer()[m[K’
+ 1074 | void [01;31m[KtimeOut[m[K::initTimer()
+      |      [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:1074:6:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid timeOut::initTimer()[m[K’ previously defined here
+ 1074 | void [01;36m[KtimeOut[m[K::initTimer()
+      |      [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:1094:19:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Klong unsigned int timeOut::elapsedTime_ms()[m[K’
+ 1094 | unsigned long int [01;31m[KtimeOut[m[K::elapsedTime_ms()
+      |                   [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:5[m[K:
+[01m[K/home/moses/marp/src/serial/serialib.cpp:1094:19:[m[K [01;36m[Knote: [m[K‘[01m[Klong unsigned int timeOut::elapsedTime_ms()[m[K’ previously defined here
+ 1094 | unsigned long int [01;36m[KtimeOut[m[K::elapsedTime_ms()
+      |                   [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/dtc.dir/build.make:76: CMakeFiles/dtc.dir/src/dtc.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dtc.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

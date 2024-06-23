@@ -182,7 +182,8 @@ CMakeFiles/dtc.dir/src/dtc.cpp.o: /home/moses/marp/src/dtc/src/dtc.cpp \
   /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  /home/moses/marp/src/serialib/lib/serialib.h \
+  /home/moses/marp/src/serial/serialib.cpp \
+  /home/moses/marp/src/serial/serialib.h \
   /usr/include/c++/11/stdlib.h \
   /usr/include/aarch64-linux-gnu/sys/shm.h \
   /usr/include/aarch64-linux-gnu/sys/ipc.h \
@@ -255,8 +256,6 @@ CMakeFiles/dtc.dir/src/dtc.cpp.o: /home/moses/marp/src/dtc/src/dtc.cpp \
   /usr/include/aarch64-linux-gnu/asm/ioctl.h \
   /usr/include/asm-generic/ioctl.h \
   /usr/include/aarch64-linux-gnu/bits/ioctl-types.h \
-  /home/moses/marp/src/serialib/lib/serialib.cpp \
-  /home/moses/marp/src/serialib/lib/serialib.h \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
   /usr/include/signal.h \
@@ -889,6 +888,8 @@ CMakeFiles/dtc.dir/src/dtc.cpp.o: /home/moses/marp/src/dtc/src/dtc.cpp \
 
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
 /usr/include/c++/11/tr1/ell_integral.tcc:
@@ -1075,7 +1076,7 @@ CMakeFiles/dtc.dir/src/dtc.cpp.o: /home/moses/marp/src/dtc/src/dtc.cpp \
 
 /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
-/home/moses/marp/src/serialib/lib/serialib.h:
+/opt/ros/humble/include/rmw/rmw/domain_id.h:
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
@@ -1140,10 +1141,6 @@ CMakeFiles/dtc.dir/src/dtc.cpp.o: /home/moses/marp/src/dtc/src/dtc.cpp \
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
 
 /usr/include/c++/11/bits/ostream_insert.h:
-
-/usr/include/c++/11/tr1/legendre_function.tcc:
-
-/home/moses/marp/src/serialib/lib/serialib.cpp:
 
 /usr/include/c++/11/bits/stl_multimap.h:
 
@@ -1379,6 +1376,8 @@ CMakeFiles/dtc.dir/src/dtc.cpp.o: /home/moses/marp/src/dtc/src/dtc.cpp \
 
 /usr/include/aarch64-linux-gnu/bits/getopt_posix.h:
 
+/home/moses/marp/src/serial/serialib.cpp:
+
 /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
@@ -1502,6 +1501,10 @@ CMakeFiles/dtc.dir/src/dtc.cpp.o: /home/moses/marp/src/dtc/src/dtc.cpp \
 /usr/include/c++/11/bits/stringfwd.h:
 
 /usr/include/c++/11/cwchar:
+
+/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
+
+/usr/include/fcntl.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h:
 
@@ -1867,8 +1870,6 @@ CMakeFiles/dtc.dir/src/dtc.cpp.o: /home/moses/marp/src/dtc/src/dtc.cpp \
 
 /opt/ros/humble/include/rmw/rmw/init_options.h:
 
-/opt/ros/humble/include/rmw/rmw/domain_id.h:
-
 /usr/include/aarch64-linux-gnu/bits/signum-arch.h:
 
 /opt/ros/humble/include/rmw/rmw/localhost.h:
@@ -2001,6 +2002,8 @@ CMakeFiles/dtc.dir/src/dtc.cpp.o: /home/moses/marp/src/dtc/src/dtc.cpp \
 
 /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp:
 
+/home/moses/marp/src/serial/serialib.h:
+
 /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/context.hpp:
@@ -2040,10 +2043,6 @@ CMakeFiles/dtc.dir/src/dtc.cpp.o: /home/moses/marp/src/dtc/src/dtc.cpp \
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
-
-/usr/include/fcntl.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
 

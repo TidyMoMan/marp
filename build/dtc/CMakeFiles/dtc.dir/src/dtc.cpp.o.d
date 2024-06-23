@@ -148,8 +148,8 @@ CMakeFiles/dtc.dir/src/dtc.cpp.o: /home/moses/marp/src/dtc/src/dtc.cpp \
  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/moses/marp/src/serialib/lib/serialib.h \
- /usr/include/c++/11/stdlib.h /usr/include/aarch64-linux-gnu/sys/shm.h \
+ /home/moses/marp/src/serial/serialib.h /usr/include/c++/11/stdlib.h \
+ /usr/include/aarch64-linux-gnu/sys/shm.h \
  /usr/include/aarch64-linux-gnu/sys/ipc.h \
  /usr/include/aarch64-linux-gnu/bits/ipctypes.h \
  /usr/include/aarch64-linux-gnu/bits/ipc.h \
@@ -208,8 +208,8 @@ CMakeFiles/dtc.dir/src/dtc.cpp.o: /home/moses/marp/src/dtc/src/dtc.cpp \
  /usr/include/aarch64-linux-gnu/asm/ioctl.h \
  /usr/include/asm-generic/ioctl.h \
  /usr/include/aarch64-linux-gnu/bits/ioctl-types.h \
- /home/moses/marp/src/serialib/lib/serialib.cpp \
- /home/moses/marp/src/serialib/lib/serialib.h \
+ /home/moses/marp/src/serial/serialib.cpp \
+ /home/moses/marp/src/serial/serialib.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/aarch64-linux-gnu/bits/signum-generic.h \

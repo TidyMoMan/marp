@@ -1,0 +1,456 @@
+[0.000000] (-) TimerEvent: {}
+[0.001074] (-) JobUnselected: {'identifier': 'controller'}
+[0.002178] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002760] (dtc) JobQueued: {'identifier': 'dtc', 'dependencies': OrderedDict()}
+[0.003258] (dtc) JobStarted: {'identifier': 'dtc'}
+[0.039281] (dtc) JobProgress: {'identifier': 'dtc', 'progress': 'cmake'}
+[0.042734] (dtc) JobProgress: {'identifier': 'dtc', 'progress': 'build'}
+[0.046141] (dtc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/moses/marp/build/dtc', '--', '-j4', '-l4'], 'cwd': '/home/moses/marp/build/dtc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'moses'), ('SSH_CLIENT', '192.168.4.101 27701 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/moses/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/moses/marp/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/moses/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/moses'), ('OLDPWD', '/home/moses/marp/src'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-359b0a84-7f8e-4beb-a10e-9c4dcb8c79d5.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/moses/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/moses/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/moses/marp/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'moses'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '31'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/moses/.vscode-server/cli/servers/Stable-5437499feb04f7a586f677b155b039bc2b3669eb/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a1973280a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/moses/marp/install/turtlesim:/home/moses/marp/install/dtc:/home/moses/marp/install/controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/moses/marp/build/dtc'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.4.101 27701 192.168.4.225 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/moses/marp/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/moses/marp/install/turtlesim:/home/moses/marp/install/dtc:/home/moses/marp/install/controller:/opt/ros/humble')]), 'shell': False}
+[0.099234] (-) TimerEvent: {}
+[0.200118] (-) TimerEvent: {}
+[0.225500] (dtc) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target dtc\x1b[0m\n'}
+[0.300324] (-) TimerEvent: {}
+[0.323210] (dtc) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o\x1b[0m\n'}
+[0.400503] (-) TimerEvent: {}
+[0.501295] (-) TimerEvent: {}
+[0.602197] (-) TimerEvent: {}
+[0.703102] (-) TimerEvent: {}
+[0.803865] (-) TimerEvent: {}
+[0.904570] (-) TimerEvent: {}
+[1.005313] (-) TimerEvent: {}
+[1.106044] (-) TimerEvent: {}
+[1.207242] (-) TimerEvent: {}
+[1.308683] (-) TimerEvent: {}
+[1.409584] (-) TimerEvent: {}
+[1.510452] (-) TimerEvent: {}
+[1.611298] (-) TimerEvent: {}
+[1.712031] (-) TimerEvent: {}
+[1.812744] (-) TimerEvent: {}
+[1.913572] (-) TimerEvent: {}
+[2.014526] (-) TimerEvent: {}
+[2.115333] (-) TimerEvent: {}
+[2.216205] (-) TimerEvent: {}
+[2.317059] (-) TimerEvent: {}
+[2.417871] (-) TimerEvent: {}
+[2.518648] (-) TimerEvent: {}
+[2.619520] (-) TimerEvent: {}
+[2.720328] (-) TimerEvent: {}
+[2.774036] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.774787] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.775309] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:576:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison is always false due to limited range of data type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.775718] (dtc) StderrLine: {'line': b'  576 |         if (\x1b[01;35m\x1b[KcharRead<0\x1b[m\x1b[K) return charRead;\n'}
+[2.776084] (dtc) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.776795] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint serialib::readString(char*, char, unsigned int, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.777350] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:639:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison is always false due to limited range of data type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.777915] (dtc) StderrLine: {'line': b'  639 |             if (\x1b[01;35m\x1b[KcharRead<0\x1b[m\x1b[K) return charRead;\n'}
+[2.778322] (dtc) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.780986] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.783185] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.784585] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:29:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kserialib::serialib()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.785092] (dtc) StderrLine: {'line': b'   29 | \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::serialib()\n'}
+[2.785530] (dtc) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.785931] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.786296] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:29:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserialib::serialib()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.786661] (dtc) StderrLine: {'line': b'   29 | \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::serialib()\n'}
+[2.787011] (dtc) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.787339] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.787702] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:47:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kserialib::~serialib()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.788102] (dtc) StderrLine: {'line': b'   47 | \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::~serialib()\n'}
+[2.788467] (dtc) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.788804] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.789143] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:47:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserialib::~serialib()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.789525] (dtc) StderrLine: {'line': b'   47 | \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::~serialib()\n'}
+[2.789918] (dtc) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.790287] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.790653] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:144:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kchar serialib::openDevice(const char*, unsigned int, SerialDataBits, SerialParity, SerialStopBits)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.791021] (dtc) StderrLine: {'line': b'  144 | char \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::openDevice(const char *Device, const unsigned int Bauds,\n'}
+[2.791378] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.791712] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.792047] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:144:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchar serialib::openDevice(const char*, unsigned int, SerialDataBits, SerialParity, SerialStopBits)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.792393] (dtc) StderrLine: {'line': b'  144 | char \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::openDevice(const char *Device, const unsigned int Bauds,\n'}
+[2.792731] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.793047] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.793380] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:358:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kbool serialib::isDeviceOpen()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.794926] (dtc) StderrLine: {'line': b'  358 | bool \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::isDeviceOpen()\n'}
+[2.795333] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.795692] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.796039] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:358:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool serialib::isDeviceOpen()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.796446] (dtc) StderrLine: {'line': b'  358 | bool \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::isDeviceOpen()\n'}
+[2.796797] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.797193] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.797618] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:371:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid serialib::closeDevice()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.798062] (dtc) StderrLine: {'line': b'  371 | void \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::closeDevice()\n'}
+[2.798427] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.798770] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.799107] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:371:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid serialib::closeDevice()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.799436] (dtc) StderrLine: {'line': b'  371 | void \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::closeDevice()\n'}
+[2.799784] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.800129] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.800463] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:397:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint serialib::writeChar(char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.800828] (dtc) StderrLine: {'line': b'  397 | int \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::writeChar(const char Byte)\n'}
+[2.801206] (dtc) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.801704] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.802087] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:397:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint serialib::writeChar(char)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.802434] (dtc) StderrLine: {'line': b'  397 | int \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::writeChar(const char Byte)\n'}
+[2.802781] (dtc) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.803112] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.803423] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:429:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint serialib::writeString(const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.803777] (dtc) StderrLine: {'line': b'  429 | int \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::writeString(const char *receivedString)\n'}
+[2.804129] (dtc) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.804479] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.805058] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:429:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint serialib::writeString(const char*)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.805758] (dtc) StderrLine: {'line': b'  429 | int \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::writeString(const char *receivedString)\n'}
+[2.806372] (dtc) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.806810] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.807232] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:463:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint serialib::writeBytes(const void*, unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.807735] (dtc) StderrLine: {'line': b'  463 | int \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::writeBytes(const void *Buffer, const unsigned int NbBytes)\n'}
+[2.808362] (dtc) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.808818] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.809214] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:463:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint serialib::writeBytes(const void*, unsigned int)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.809642] (dtc) StderrLine: {'line': b'  463 | int \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::writeBytes(const void *Buffer, const unsigned int NbBytes)\n'}
+[2.810001] (dtc) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.810339] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.810691] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:495:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint serialib::readChar(char*, unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.811053] (dtc) StderrLine: {'line': b'  495 | int \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::readChar(char *pByte,unsigned int timeOut_ms)\n'}
+[2.811410] (dtc) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.811738] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.812129] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:495:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint serialib::readChar(char*, unsigned int)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.812491] (dtc) StderrLine: {'line': b'  495 | int \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::readChar(char *pByte,unsigned int timeOut_ms)\n'}
+[2.812845] (dtc) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.813206] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.813599] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:546:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.813988] (dtc) StderrLine: {'line': b'  546 | int \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::readStringNoTimeOut(char *receivedString,char finalChar,unsigned int maxNbBytes)\n'}
+[2.814346] (dtc) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.814686] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.815059] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:546:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.815501] (dtc) StderrLine: {'line': b'  546 | int \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::readStringNoTimeOut(char *receivedString,char finalChar,unsigned int maxNbBytes)\n'}
+[2.815847] (dtc) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.816213] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.816570] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:595:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint serialib::readString(char*, char, unsigned int, unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.816949] (dtc) StderrLine: {'line': b'  595 | int \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::readString(char *receivedString,char finalChar,unsigned int maxNbBytes,unsigned int timeOut_ms)\n'}
+[2.817316] (dtc) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.817746] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.818137] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:595:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint serialib::readString(char*, char, unsigned int, unsigned int)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.818479] (dtc) StderrLine: {'line': b'  595 | int \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::readString(char *receivedString,char finalChar,unsigned int maxNbBytes,unsigned int timeOut_ms)\n'}
+[2.818842] (dtc) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.819196] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.819527] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:669:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint serialib::readBytes(void*, unsigned int, unsigned int, unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.819874] (dtc) StderrLine: {'line': b'  669 | int \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::readBytes (void *buffer,unsigned int maxNbBytes,unsigned int timeOut_ms, unsigned int sleepDuration_us)\n'}
+[2.820232] (dtc) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.820568] (-) TimerEvent: {}
+[2.820950] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.821586] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:669:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint serialib::readBytes(void*, unsigned int, unsigned int, unsigned int)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.822064] (dtc) StderrLine: {'line': b'  669 | int \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::readBytes (void *buffer,unsigned int maxNbBytes,unsigned int timeOut_ms, unsigned int sleepDuration_us)\n'}
+[2.822416] (dtc) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.822759] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.823122] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:738:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kchar serialib::flushReceiver()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.823475] (dtc) StderrLine: {'line': b'  738 | char \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::flushReceiver()\n'}
+[2.823798] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.824142] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.824496] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:738:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchar serialib::flushReceiver()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.824862] (dtc) StderrLine: {'line': b'  738 | char \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::flushReceiver()\n'}
+[2.825190] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.825679] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.826096] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:757:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint serialib::available()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.826606] (dtc) StderrLine: {'line': b'  757 | int \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::available()\n'}
+[2.827205] (dtc) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.827714] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.828173] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:757:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint serialib::available()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.828691] (dtc) StderrLine: {'line': b'  757 | int \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::available()\n'}
+[2.829217] (dtc) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.829697] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.830087] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:792:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kbool serialib::DTR(bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.830429] (dtc) StderrLine: {'line': b'  792 | bool \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::DTR(bool status)\n'}
+[2.830909] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.831430] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.831857] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:792:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool serialib::DTR(bool)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.832231] (dtc) StderrLine: {'line': b'  792 | bool \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::DTR(bool status)\n'}
+[2.832598] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.832966] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.833358] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:809:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kbool serialib::setDTR()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.833856] (dtc) StderrLine: {'line': b'  809 | bool \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::setDTR()\n'}
+[2.834243] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.835217] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.835658] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:809:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool serialib::setDTR()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.836045] (dtc) StderrLine: {'line': b'  809 | bool \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::setDTR()\n'}
+[2.836428] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.836943] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.837361] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:832:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kbool serialib::clearDTR()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.838083] (dtc) StderrLine: {'line': b'  832 | bool \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::clearDTR()\n'}
+[2.838493] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.838831] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.839159] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:832:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool serialib::clearDTR()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.839553] (dtc) StderrLine: {'line': b'  832 | bool \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::clearDTR()\n'}
+[2.839885] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.840300] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.840896] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:860:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kbool serialib::RTS(bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.841396] (dtc) StderrLine: {'line': b'  860 | bool \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::RTS(bool status)\n'}
+[2.842021] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.842625] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.843147] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:860:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool serialib::RTS(bool)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.843590] (dtc) StderrLine: {'line': b'  860 | bool \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::RTS(bool status)\n'}
+[2.844152] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.844548] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.845108] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:877:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kbool serialib::setRTS()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.845644] (dtc) StderrLine: {'line': b'  877 | bool \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::setRTS()\n'}
+[2.847283] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.847968] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.848464] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:877:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool serialib::setRTS()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.849030] (dtc) StderrLine: {'line': b'  877 | bool \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::setRTS()\n'}
+[2.849489] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.850184] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.850667] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:902:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kbool serialib::clearRTS()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.851079] (dtc) StderrLine: {'line': b'  902 | bool \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::clearRTS()\n'}
+[2.851469] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.851969] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.852585] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:902:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool serialib::clearRTS()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.853261] (dtc) StderrLine: {'line': b'  902 | bool \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::clearRTS()\n'}
+[2.853764] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.854310] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.854744] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:927:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kbool serialib::isCTS()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.855277] (dtc) StderrLine: {'line': b'  927 | bool \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::isCTS()\n'}
+[2.855833] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.856279] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.856854] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:927:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool serialib::isCTS()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.857260] (dtc) StderrLine: {'line': b'  927 | bool \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::isCTS()\n'}
+[2.857706] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.858133] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.859246] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:949:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kbool serialib::isDSR()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.859787] (dtc) StderrLine: {'line': b'  949 | bool \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::isDSR()\n'}
+[2.860390] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.861481] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.862388] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:949:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool serialib::isDSR()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.863283] (dtc) StderrLine: {'line': b'  949 | bool \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::isDSR()\n'}
+[2.863854] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.865673] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.866331] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:975:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kbool serialib::isDCD()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.866880] (dtc) StderrLine: {'line': b'  975 | bool \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::isDCD()\n'}
+[2.867559] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.868473] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.869131] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:975:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool serialib::isDCD()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.869887] (dtc) StderrLine: {'line': b'  975 | bool \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::isDCD()\n'}
+[2.870502] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.871082] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.871662] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:996:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kbool serialib::isRI()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.872140] (dtc) StderrLine: {'line': b'  996 | bool \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::isRI()\n'}
+[2.872723] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.873214] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.873921] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:996:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool serialib::isRI()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.874599] (dtc) StderrLine: {'line': b'  996 | bool \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::isRI()\n'}
+[2.875031] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.875425] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.875824] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:1018:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kbool serialib::isDTR()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.876209] (dtc) StderrLine: {'line': b' 1018 | bool \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::isDTR()\n'}
+[2.876576] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.877013] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.877671] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:1018:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool serialib::isDTR()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.878159] (dtc) StderrLine: {'line': b' 1018 | bool \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::isDTR()\n'}
+[2.878543] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.879083] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.879601] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:1039:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kbool serialib::isRTS()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.880067] (dtc) StderrLine: {'line': b' 1039 | bool \x1b[01;31m\x1b[Kserialib\x1b[m\x1b[K::isRTS()\n'}
+[2.880672] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.881071] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.881552] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:1039:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool serialib::isRTS()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.882030] (dtc) StderrLine: {'line': b' 1039 | bool \x1b[01;36m\x1b[Kserialib\x1b[m\x1b[K::isRTS()\n'}
+[2.882407] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.882905] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.883306] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:1066:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[KtimeOut::timeOut()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.883674] (dtc) StderrLine: {'line': b' 1066 | \x1b[01;31m\x1b[KtimeOut\x1b[m\x1b[K::timeOut()\n'}
+[2.884033] (dtc) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.884380] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.884736] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:1066:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KtimeOut::timeOut()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.885108] (dtc) StderrLine: {'line': b' 1066 | \x1b[01;36m\x1b[KtimeOut\x1b[m\x1b[K::timeOut()\n'}
+[2.885517] (dtc) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.885950] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.886328] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:1074:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kvoid timeOut::initTimer()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.886762] (dtc) StderrLine: {'line': b' 1074 | void \x1b[01;31m\x1b[KtimeOut\x1b[m\x1b[K::initTimer()\n'}
+[2.887214] (dtc) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.887768] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.888327] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:1074:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid timeOut::initTimer()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.888964] (dtc) StderrLine: {'line': b' 1074 | void \x1b[01;36m\x1b[KtimeOut\x1b[m\x1b[K::initTimer()\n'}
+[2.889549] (dtc) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.889986] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:6\x1b[m\x1b[K:\n'}
+[2.890470] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:1094:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int timeOut::elapsedTime_ms()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.891151] (dtc) StderrLine: {'line': b' 1094 | unsigned long int \x1b[01;31m\x1b[KtimeOut\x1b[m\x1b[K::elapsedTime_ms()\n'}
+[2.891627] (dtc) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.892001] (dtc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moses/marp/src/dtc/src/dtc.cpp:5\x1b[m\x1b[K:\n'}
+[2.892367] (dtc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moses/marp/src/serial/serialib.cpp:1094:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klong unsigned int timeOut::elapsedTime_ms()\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[2.892833] (dtc) StderrLine: {'line': b' 1094 | unsigned long int \x1b[01;36m\x1b[KtimeOut\x1b[m\x1b[K::elapsedTime_ms()\n'}
+[2.893304] (dtc) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.920829] (-) TimerEvent: {}
+[3.021718] (-) TimerEvent: {}
+[3.123280] (-) TimerEvent: {}
+[3.224130] (-) TimerEvent: {}
+[3.324961] (-) TimerEvent: {}
+[3.425936] (-) TimerEvent: {}
+[3.527619] (-) TimerEvent: {}
+[3.629226] (-) TimerEvent: {}
+[3.730939] (-) TimerEvent: {}
+[3.832066] (-) TimerEvent: {}
+[3.932893] (-) TimerEvent: {}
+[4.034004] (-) TimerEvent: {}
+[4.134986] (-) TimerEvent: {}
+[4.235991] (-) TimerEvent: {}
+[4.337645] (-) TimerEvent: {}
+[4.438857] (-) TimerEvent: {}
+[4.540560] (-) TimerEvent: {}
+[4.641727] (-) TimerEvent: {}
+[4.743378] (-) TimerEvent: {}
+[4.845022] (-) TimerEvent: {}
+[4.946877] (-) TimerEvent: {}
+[5.050092] (-) TimerEvent: {}
+[5.152476] (-) TimerEvent: {}
+[5.253513] (-) TimerEvent: {}
+[5.354311] (-) TimerEvent: {}
+[5.455128] (-) TimerEvent: {}
+[5.555987] (-) TimerEvent: {}
+[5.656970] (-) TimerEvent: {}
+[5.758015] (-) TimerEvent: {}
+[5.858918] (-) TimerEvent: {}
+[5.959901] (-) TimerEvent: {}
+[6.060832] (-) TimerEvent: {}
+[6.161639] (-) TimerEvent: {}
+[6.262447] (-) TimerEvent: {}
+[6.363267] (-) TimerEvent: {}
+[6.464062] (-) TimerEvent: {}
+[6.564863] (-) TimerEvent: {}
+[6.665743] (-) TimerEvent: {}
+[6.766545] (-) TimerEvent: {}
+[6.867404] (-) TimerEvent: {}
+[6.968217] (-) TimerEvent: {}
+[7.069129] (-) TimerEvent: {}
+[7.170049] (-) TimerEvent: {}
+[7.270870] (-) TimerEvent: {}
+[7.371679] (-) TimerEvent: {}
+[7.472539] (-) TimerEvent: {}
+[7.573330] (-) TimerEvent: {}
+[7.674173] (-) TimerEvent: {}
+[7.774991] (-) TimerEvent: {}
+[7.875867] (-) TimerEvent: {}
+[7.976825] (-) TimerEvent: {}
+[8.077759] (-) TimerEvent: {}
+[8.178554] (-) TimerEvent: {}
+[8.279374] (-) TimerEvent: {}
+[8.380344] (-) TimerEvent: {}
+[8.481214] (-) TimerEvent: {}
+[8.582199] (-) TimerEvent: {}
+[8.682989] (-) TimerEvent: {}
+[8.783800] (-) TimerEvent: {}
+[8.884675] (-) TimerEvent: {}
+[8.985600] (-) TimerEvent: {}
+[9.086415] (-) TimerEvent: {}
+[9.187270] (-) TimerEvent: {}
+[9.288398] (-) TimerEvent: {}
+[9.389197] (-) TimerEvent: {}
+[9.490067] (-) TimerEvent: {}
+[9.590937] (-) TimerEvent: {}
+[9.691828] (-) TimerEvent: {}
+[9.792796] (-) TimerEvent: {}
+[9.893678] (-) TimerEvent: {}
+[9.994731] (-) TimerEvent: {}
+[10.095630] (-) TimerEvent: {}
+[10.196514] (-) TimerEvent: {}
+[10.297364] (-) TimerEvent: {}
+[10.398217] (-) TimerEvent: {}
+[10.499028] (-) TimerEvent: {}
+[10.599842] (-) TimerEvent: {}
+[10.700685] (-) TimerEvent: {}
+[10.801541] (-) TimerEvent: {}
+[10.902380] (-) TimerEvent: {}
+[11.003200] (-) TimerEvent: {}
+[11.104048] (-) TimerEvent: {}
+[11.204906] (-) TimerEvent: {}
+[11.305720] (-) TimerEvent: {}
+[11.406523] (-) TimerEvent: {}
+[11.507360] (-) TimerEvent: {}
+[11.608236] (-) TimerEvent: {}
+[11.709096] (-) TimerEvent: {}
+[11.809943] (-) TimerEvent: {}
+[11.910794] (-) TimerEvent: {}
+[12.011663] (-) TimerEvent: {}
+[12.112468] (-) TimerEvent: {}
+[12.213353] (-) TimerEvent: {}
+[12.314219] (-) TimerEvent: {}
+[12.415072] (-) TimerEvent: {}
+[12.515886] (-) TimerEvent: {}
+[12.616701] (-) TimerEvent: {}
+[12.717563] (-) TimerEvent: {}
+[12.818361] (-) TimerEvent: {}
+[12.919188] (-) TimerEvent: {}
+[13.020022] (-) TimerEvent: {}
+[13.120843] (-) TimerEvent: {}
+[13.221736] (-) TimerEvent: {}
+[13.322499] (-) TimerEvent: {}
+[13.423309] (-) TimerEvent: {}
+[13.524145] (-) TimerEvent: {}
+[13.625001] (-) TimerEvent: {}
+[13.725857] (-) TimerEvent: {}
+[13.826692] (-) TimerEvent: {}
+[13.927604] (-) TimerEvent: {}
+[14.028447] (-) TimerEvent: {}
+[14.129306] (-) TimerEvent: {}
+[14.230178] (-) TimerEvent: {}
+[14.331030] (-) TimerEvent: {}
+[14.431911] (-) TimerEvent: {}
+[14.532854] (-) TimerEvent: {}
+[14.633756] (-) TimerEvent: {}
+[14.734614] (-) TimerEvent: {}
+[14.835446] (-) TimerEvent: {}
+[14.936391] (-) TimerEvent: {}
+[15.037209] (-) TimerEvent: {}
+[15.138016] (-) TimerEvent: {}
+[15.238806] (-) TimerEvent: {}
+[15.339615] (-) TimerEvent: {}
+[15.440452] (-) TimerEvent: {}
+[15.541290] (-) TimerEvent: {}
+[15.642133] (-) TimerEvent: {}
+[15.742964] (-) TimerEvent: {}
+[15.843809] (-) TimerEvent: {}
+[15.944675] (-) TimerEvent: {}
+[16.045614] (-) TimerEvent: {}
+[16.146442] (-) TimerEvent: {}
+[16.247321] (-) TimerEvent: {}
+[16.348160] (-) TimerEvent: {}
+[16.449089] (-) TimerEvent: {}
+[16.550026] (-) TimerEvent: {}
+[16.650912] (-) TimerEvent: {}
+[16.751756] (-) TimerEvent: {}
+[16.852599] (-) TimerEvent: {}
+[16.953488] (-) TimerEvent: {}
+[17.054300] (-) TimerEvent: {}
+[17.155155] (-) TimerEvent: {}
+[17.255960] (-) TimerEvent: {}
+[17.358183] (-) TimerEvent: {}
+[17.459007] (-) TimerEvent: {}
+[17.559873] (-) TimerEvent: {}
+[17.660718] (-) TimerEvent: {}
+[17.761627] (-) TimerEvent: {}
+[17.862432] (-) TimerEvent: {}
+[17.963367] (-) TimerEvent: {}
+[18.064441] (-) TimerEvent: {}
+[18.165207] (-) TimerEvent: {}
+[18.266003] (-) TimerEvent: {}
+[18.366803] (-) TimerEvent: {}
+[18.467602] (-) TimerEvent: {}
+[18.568483] (-) TimerEvent: {}
+[18.669309] (-) TimerEvent: {}
+[18.770169] (-) TimerEvent: {}
+[18.870994] (-) TimerEvent: {}
+[18.971829] (-) TimerEvent: {}
+[19.072683] (-) TimerEvent: {}
+[19.173722] (-) TimerEvent: {}
+[19.274815] (-) TimerEvent: {}
+[19.375831] (-) TimerEvent: {}
+[19.476617] (-) TimerEvent: {}
+[19.577822] (-) TimerEvent: {}
+[19.678836] (-) TimerEvent: {}
+[19.779856] (-) TimerEvent: {}
+[19.804598] (dtc) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dtc.dir/build.make:76: CMakeFiles/dtc.dir/src/dtc.cpp.o] Error 1\n'}
+[19.807072] (dtc) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dtc.dir/all] Error 2\n'}
+[19.808142] (dtc) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[19.814605] (dtc) CommandEnded: {'returncode': 2}
+[19.880034] (-) TimerEvent: {}
+[19.980888] (-) TimerEvent: {}
+[19.996307] (dtc) JobEnded: {'identifier': 'dtc', 'rc': 2}
+[20.009077] (-) EventReactorShutdown: {}

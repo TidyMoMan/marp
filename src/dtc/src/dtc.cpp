@@ -2,8 +2,8 @@
 #include <memory>
 #include <string>
 
-#include "/home/moses/marp/src/serialib/lib/serialib.h"
-#include "/home/moses/marp/src/serialib/lib/serialib.cpp"
+#include "/home/moses/marp/src/serial/serialib.h"
+#include "/home/moses/marp/src/serial/serialib.cpp"
 #include <unistd.h>
 #include <stdio.h>
 
