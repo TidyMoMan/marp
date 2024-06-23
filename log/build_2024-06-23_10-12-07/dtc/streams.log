@@ -1,0 +1,35 @@
+[0.048s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[0.222s] [35m[1mConsolidate compiler generated dependencies of target dtc[0m
+[0.321s] [ 50%] [32mBuilding CXX object CMakeFiles/dtc.dir/src/dtc.cpp.o[0m
+[2.850s] In file included from [01m[K/home/moses/marp/src/dtc/src/dtc.cpp:6[m[K:
+[2.851s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readStringNoTimeOut(char*, char, unsigned int)[m[K’:
+[2.852s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:576:21:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[2.852s]   576 |         if ([01;35m[KcharRead<0[m[K) return charRead;
+[2.853s]       |             [01;35m[K~~~~~~~~^~[m[K
+[2.853s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:[m[K In member function ‘[01m[Kint serialib::readString(char*, char, unsigned int, unsigned int)[m[K’:
+[2.853s] [01m[K/home/moses/marp/src/serialib/lib/serialib.cpp:639:25:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[2.854s]   639 |             if ([01;35m[KcharRead<0[m[K) return charRead;
+[2.854s]       |                 [01;35m[K~~~~~~~~^~[m[K
+[32.979s] [100%] [32m[1mLinking CXX executable dtc[0m
+[34.729s] [100%] Built target dtc
+[34.767s] Invoked command in '/home/moses/marp/build/dtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/moses/marp/build/dtc -- -j4 -l4
+[34.948s] Invoking command in '/home/moses/marp/build/dtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dtc
+[34.974s] -- Install configuration: ""
+[34.975s] -- Installing: /home/moses/marp/install/dtc/lib/dtc/dtc
+[35.004s] -- Set runtime path of "/home/moses/marp/install/dtc/lib/dtc/dtc" to ""
+[35.005s] -- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/package_run_dependencies/dtc
+[35.005s] -- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/parent_prefix_path/dtc
+[35.006s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/ament_prefix_path.sh
+[35.006s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/ament_prefix_path.dsv
+[35.007s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/path.sh
+[35.007s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/environment/path.dsv
+[35.008s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.bash
+[35.008s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.sh
+[35.008s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.zsh
+[35.009s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/local_setup.dsv
+[35.009s] -- Installing: /home/moses/marp/install/dtc/share/dtc/package.dsv
+[35.010s] -- Up-to-date: /home/moses/marp/install/dtc/share/ament_index/resource_index/packages/dtc
+[35.010s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/cmake/dtcConfig.cmake
+[35.010s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/cmake/dtcConfig-version.cmake
+[35.011s] -- Up-to-date: /home/moses/marp/install/dtc/share/dtc/package.xml
+[35.016s] Invoked command in '/home/moses/marp/build/dtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/moses/marp/build/dtc
